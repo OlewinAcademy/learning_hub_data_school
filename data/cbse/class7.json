@@ -1,1 +1,563 @@
-
+{
+  "class": "7",
+  "board": "CBSE",
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "icon": "📐",
+      "chapters": [
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Integers",
+          "content": {
+            "introduction": "Deep dive into integers including multiplication, division, and properties. Understanding how integers work in real-life situations.",
+            "topics": [
+              {
+                "title": "Multiplication of Integers",
+                "description": "Rules for multiplying positive and negative integers.",
+                "examples": [
+                  "(+3) × (+4) = +12",
+                  "(+5) × (-3) = -15",
+                  "(-4) × (+6) = -24",
+                  "(-7) × (-2) = +14"
+                ]
+              },
+              {
+                "title": "Division of Integers",
+                "description": "Dividing integers following sign rules.",
+                "examples": [
+                  "(+12) ÷ (+3) = +4",
+                  "(-15) ÷ (+5) = -3",
+                  "(+18) ÷ (-6) = -3",
+                  "(-20) ÷ (-4) = +5"
+                ]
+              },
+              {
+                "title": "Properties of Integers",
+                "description": "Closure, commutativity, associativity, and distributivity.",
+                "examples": [
+                  "Commutative: 3 × 4 = 4 × 3",
+                  "Associative: (2 × 3) × 4 = 2 × (3 × 4)",
+                  "Distributive: 5 × (3 + 2) = 5×3 + 5×2"
+                ]
+              }
+            ],
+            "exercises": [
+              "Multiply: (-8) × (-7)",
+              "Divide: (-56) ÷ 8",
+              "Solve: (-3) × 4 + (-2) × 5",
+              "Verify distributive property for: 7 × (5 + 3)",
+              "The temperature drops 3°C every hour. What is change after 5 hours?"
+            ]
+          }
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Fractions and Decimals",
+          "content": {
+            "introduction": "Advanced operations on fractions and decimals including multiplication and division.",
+            "topics": [
+              {
+                "title": "Multiplication of Fractions",
+                "description": "Multiplying proper, improper, and mixed fractions.",
+                "examples": [
+                  "2/3 × 4/5 = 8/15",
+                  "3 1/2 × 2/7 = 7/2 × 2/7 = 1",
+                  "Multiply numerators and denominators"
+                ]
+              },
+              {
+                "title": "Division of Fractions",
+                "description": "Dividing by reciprocal method.",
+                "examples": [
+                  "3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8",
+                  "5 ÷ 2/3 = 5 × 3/2 = 15/2"
+                ]
+              },
+              {
+                "title": "Decimal Operations",
+                "description": "Multiplication and division of decimals.",
+                "examples": [
+                  "2.5 × 1.2 = 3.0",
+                  "7.5 ÷ 2.5 = 3",
+                  "0.125 × 8 = 1"
+                ]
+              }
+            ],
+            "exercises": [
+              "Multiply: 5/6 × 3/10",
+              "Divide: 7/8 ÷ 3/4",
+              "Calculate: 2.5 × 3.6",
+              "Solve: 15.75 ÷ 2.5",
+              "A rope of 7.5m is cut into pieces of 1.25m. How many pieces?"
+            ]
+          }
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3: Data Handling",
+          "content": {
+            "introduction": "Advanced data representation using mean, median, mode, and range. Introduction to probability.",
+            "topics": [
+              {
+                "title": "Mean, Median, Mode",
+                "description": "Measures of central tendency.",
+                "examples": [
+                  "Mean = Sum of observations / Number of observations",
+                  "Median = Middle value when arranged in order",
+                  "Mode = Most frequently occurring value"
+                ]
+              },
+              {
+                "title": "Range",
+                "description": "Difference between highest and lowest values.",
+                "examples": [
+                  "Data: 5, 8, 12, 15, 20",
+                  "Range = 20 - 5 = 15"
+                ]
+              },
+              {
+                "title": "Probability",
+                "description": "Chance of an event occurring.",
+                "examples": [
+                  "Probability = Favorable outcomes / Total outcomes",
+                  "Coin toss: P(Heads) = 1/2",
+                  "Die roll: P(getting 6) = 1/6"
+                ]
+              }
+            ],
+            "exercises": [
+              "Find mean of: 10, 15, 20, 25, 30",
+              "Find median of: 7, 3, 9, 5, 11",
+              "Find mode of: 2, 3, 3, 5, 7, 3, 9",
+              "Calculate range of: 45, 67, 89, 23, 56",
+              "What is probability of getting an even number on a die?"
+            ]
+          }
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Simple Equations",
+          "content": {
+            "introduction": "Solving linear equations in one variable using various methods.",
+            "topics": [
+              {
+                "title": "Solving Equations",
+                "description": "Using inverse operations to solve equations.",
+                "examples": [
+                  "x + 5 = 12 → x = 7",
+                  "3x = 15 → x = 5",
+                  "x/4 = 3 → x = 12",
+                  "2x - 7 = 13 → x = 10"
+                ]
+              },
+              {
+                "title": "Transposition Method",
+                "description": "Moving terms from one side to another.",
+                "examples": [
+                  "x + 7 = 15 → x = 15 - 7",
+                  "5x = 20 → x = 20/5",
+                  "x - 3 = 8 → x = 8 + 3"
+                ]
+              }
+            ],
+            "exercises": [
+              "Solve: x + 12 = 25",
+              "Solve: 5x - 3 = 17",
+              "Solve: x/3 + 2 = 8",
+              "Solve: 3(x + 2) = 21",
+              "Sum of two numbers is 50. One is 18. Find other."
+            ]
+          }
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Lines and Angles",
+          "content": {
+            "introduction": "Understanding pairs of angles, parallel lines, and transversals.",
+            "topics": [
+              {
+                "title": "Types of Angle Pairs",
+                "description": "Complementary, supplementary, adjacent, linear pairs.",
+                "examples": [
+                  "Complementary: Sum = 90° (30° and 60°)",
+                  "Supplementary: Sum = 180° (120° and 60°)",
+                  "Linear pair: Adjacent angles on straight line",
+                  "Vertically opposite angles are equal"
+                ]
+              },
+              {
+                "title": "Parallel Lines and Transversal",
+                "description": "Angles formed when transversal cuts parallel lines.",
+                "examples": [
+                  "Corresponding angles are equal",
+                  "Alternate interior angles are equal",
+                  "Co-interior angles sum to 180°"
+                ]
+              }
+            ],
+            "exercises": [
+              "Find complement of 35°",
+              "Find supplement of 110°",
+              "If one angle is 65°, find its linear pair",
+              "Two parallel lines cut by transversal. One angle is 70°. Find others.",
+              "Prove vertically opposite angles are equal"
+            ]
+          }
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: The Triangle and its Properties",
+          "content": {
+            "introduction": "Properties of triangles, medians, altitudes, and angle sum property.",
+            "topics": [
+              {
+                "title": "Types of Triangles",
+                "description": "Classification by sides and angles.",
+                "examples": [
+                  "Equilateral: All sides equal, all angles 60°",
+                  "Isosceles: Two sides equal",
+                  "Scalene: No sides equal",
+                  "Right triangle: One 90° angle"
+                ]
+              },
+              {
+                "title": "Angle Sum Property",
+                "description": "Sum of all angles in triangle is 180°.",
+                "examples": [
+                  "If angles are 50° and 60°, third = 70°",
+                  "Right triangle: 90° + a + b = 180°"
+                ]
+              },
+              {
+                "title": "Exterior Angle Property",
+                "description": "Exterior angle equals sum of opposite interior angles.",
+                "examples": [
+                  "If interior angles are 40° and 60°, exterior = 100°"
+                ]
+              }
+            ],
+            "exercises": [
+              "Two angles of triangle are 45° and 55°. Find third angle.",
+              "In isosceles triangle, two equal angles are 50° each. Find third.",
+              "Find exterior angle if interior opposite angles are 65° and 75°.",
+              "Can a triangle have two right angles? Why?",
+              "In equilateral triangle, find each angle."
+            ]
+          }
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Congruence of Triangles",
+          "content": {
+            "introduction": "Understanding when two triangles are congruent using SSS, SAS, ASA, RHS criteria.",
+            "topics": [
+              {
+                "title": "Congruence Criteria",
+                "description": "Rules to prove triangles are congruent.",
+                "examples": [
+                  "SSS: All three sides equal",
+                  "SAS: Two sides and included angle equal",
+                  "ASA: Two angles and included side equal",
+                  "RHS: Right angle, hypotenuse, side equal"
+                ]
+              }
+            ],
+            "exercises": [
+              "Which criterion proves congruence if AB=PQ, BC=QR, AC=PR?",
+              "State the congruence criterion for given triangles",
+              "If two sides are 5cm and 7cm with included angle 60°, which criterion?",
+              "Prove two triangles are congruent using ASA",
+              "Can AAA prove congruence? Explain."
+            ]
+          }
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Comparing Quantities",
+          "content": {
+            "introduction": "Percentages, profit and loss, simple interest, and their applications.",
+            "topics": [
+              {
+                "title": "Percentage",
+                "description": "Converting fractions and decimals to percentages.",
+                "examples": [
+                  "1/2 = 50%",
+                  "0.25 = 25%",
+                  "3/4 = 75%",
+                  "To find 20% of 500: (20/100) × 500 = 100"
+                ]
+              },
+              {
+                "title": "Profit and Loss",
+                "description": "Calculating profit, loss, and percentages.",
+                "examples": [
+                  "CP = ₹500, SP = ₹600, Profit = ₹100",
+                  "Profit% = (Profit/CP) × 100",
+                  "Loss% = (Loss/CP) × 100"
+                ]
+              },
+              {
+                "title": "Simple Interest",
+                "description": "Calculating interest on principal amount.",
+                "examples": [
+                  "SI = (P × R × T) / 100",
+                  "P = ₹1000, R = 10%, T = 2 years, SI = ₹200"
+                ]
+              }
+            ],
+            "exercises": [
+              "Convert 3/5 to percentage",
+              "Find 15% of 800",
+              "CP = ₹250, SP = ₹300. Find profit%",
+              "Calculate SI: P = ₹5000, R = 8%, T = 3 years",
+              "Shirt price ₹500 with 20% discount. Find selling price."
+            ]
+          }
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Rational Numbers",
+          "content": {
+            "introduction": "Understanding rational numbers, operations, and properties.",
+            "topics": [
+              {
+                "title": "What are Rational Numbers",
+                "description": "Numbers in form p/q where q ≠ 0.",
+                "examples": [
+                  "2/3, -5/7, 4/1 = 4",
+                  "0.5 = 1/2",
+                  "All integers are rational: 5 = 5/1"
+                ]
+              },
+              {
+                "title": "Operations on Rational Numbers",
+                "description": "Addition, subtraction, multiplication, division.",
+                "examples": [
+                  "2/3 + 1/4 = 8/12 + 3/12 = 11/12",
+                  "3/5 × 2/7 = 6/35",
+                  "4/5 ÷ 2/3 = 4/5 × 3/2 = 12/10 = 6/5"
+                ]
+              }
+            ],
+            "exercises": [
+              "Add: 3/7 + 2/5",
+              "Subtract: 5/6 - 2/9",
+              "Multiply: 4/7 × 3/8",
+              "Divide: 5/6 ÷ 2/3",
+              "Simplify: (2/3 + 1/4) × 5/7"
+            ]
+          }
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10: Practical Geometry",
+          "content": {
+            "introduction": "Construction of triangles using different criteria.",
+            "topics": [
+              {
+                "title": "Constructing Triangles",
+                "description": "Using SSS, SAS, ASA, RHS criteria.",
+                "examples": [
+                  "SSS: When all three sides are known",
+                  "SAS: When two sides and included angle known",
+                  "ASA: When two angles and included side known",
+                  "RHS: For right triangles"
+                ]
+              }
+            ],
+            "exercises": [
+              "Construct triangle with sides 5cm, 6cm, 7cm",
+              "Construct triangle with two sides 4cm, 5cm and included angle 60°",
+              "Construct right triangle with hypotenuse 6cm and one side 4cm",
+              "Construct triangle with two angles 50°, 60° and included side 5cm",
+              "Which criterion is not possible for triangle construction?"
+            ]
+          }
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11: Perimeter and Area",
+          "content": {
+            "introduction": "Calculating perimeter and area of circles, squares, rectangles, triangles, and parallelograms.",
+            "topics": [
+              {
+                "title": "Area of Parallelogram",
+                "description": "Area = base × height",
+                "examples": [
+                  "Base = 10cm, Height = 6cm, Area = 60 cm²"
+                ]
+              },
+              {
+                "title": "Area of Triangle",
+                "description": "Area = 1/2 × base × height",
+                "examples": [
+                  "Base = 8cm, Height = 5cm, Area = 20 cm²"
+                ]
+              },
+              {
+                "title": "Circumference and Area of Circle",
+                "description": "Circumference = 2πr, Area = πr²",
+                "examples": [
+                  "Radius = 7cm, Circumference = 44cm",
+                  "Radius = 7cm, Area = 154 cm²"
+                ]
+              }
+            ],
+            "exercises": [
+              "Find area of parallelogram: base 12cm, height 8cm",
+              "Find area of triangle: base 10cm, height 6cm",
+              "Find circumference of circle with radius 14cm",
+              "Find area of circle with diameter 28cm",
+              "A circular park has radius 35m. Find its area."
+            ]
+          }
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12: Algebraic Expressions",
+          "content": {
+            "introduction": "Terms, factors, coefficients, and operations on algebraic expressions.",
+            "topics": [
+              {
+                "title": "Terms and Coefficients",
+                "description": "Identifying terms and their coefficients.",
+                "examples": [
+                  "In 3x²: 3 is coefficient, x² is variable part",
+                  "In 5x + 7y - 3: three terms",
+                  "Constant term has no variable"
+                ]
+              },
+              {
+                "title": "Addition and Subtraction",
+                "description": "Combining like terms.",
+                "examples": [
+                  "3x + 5x = 8x",
+                  "7y - 2y = 5y",
+                  "(4x + 3y) + (2x + 5y) = 6x + 8y"
+                ]
+              },
+              {
+                "title": "Multiplication",
+                "description": "Multiplying algebraic expressions.",
+                "examples": [
+                  "3 × 2x = 6x",
+                  "x × x = x²",
+                  "2x(3x + 5) = 6x² + 10x"
+                ]
+              }
+            ],
+            "exercises": [
+              "Simplify: 5x + 3x - 2x",
+              "Add: (3x + 4y) + (2x + 5y)",
+              "Subtract: (7x + 2y) - (3x + y)",
+              "Multiply: 3x(2x + 5)",
+              "Find value of 2x + 3y when x = 2, y = 3"
+            ]
+          }
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13: Exponents and Powers",
+          "content": {
+            "introduction": "Understanding laws of exponents and expressing numbers in standard form.",
+            "topics": [
+              {
+                "title": "Laws of Exponents",
+                "description": "Rules for operations with exponents.",
+                "examples": [
+                  "aᵐ × aⁿ = aᵐ⁺ⁿ",
+                  "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+                  "(aᵐ)ⁿ = aᵐⁿ",
+                  "a⁰ = 1"
+                ]
+              },
+              {
+                "title": "Standard Form",
+                "description": "Writing large numbers in a × 10ⁿ form.",
+                "examples": [
+                  "5000 = 5 × 10³",
+                  "67000 = 6.7 × 10⁴",
+                  "0.005 = 5 × 10⁻³"
+                ]
+              }
+            ],
+            "exercises": [
+              "Simplify: 2³ × 2⁴",
+              "Simplify: 5⁷ ÷ 5³",
+              "Simplify: (3²)³",
+              "Write in standard form: 45000",
+              "Evaluate: 2⁰ + 3¹ + 4²"
+            ]
+          }
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14: Symmetry",
+          "content": {
+            "introduction": "Advanced symmetry concepts including rotational symmetry.",
+            "topics": [
+              {
+                "title": "Rotational Symmetry",
+                "description": "Shape looks same after rotation less than 360°.",
+                "examples": [
+                  "Square: 4-fold rotational symmetry (90°)",
+                  "Equilateral triangle: 3-fold (120°)",
+                  "Circle: Infinite rotational symmetry"
+                ]
+              },
+              {
+                "title": "Order of Rotational Symmetry",
+                "description": "Number of times shape matches itself in 360° rotation.",
+                "examples": [
+                  "Square: Order 4",
+                  "Rectangle: Order 2",
+                  "Circle: Infinite order"
+                ]
+              }
+            ],
+            "exercises": [
+              "Find order of rotational symmetry for regular hexagon",
+              "Does letter 'S' have rotational symmetry?",
+              "Find rotational symmetry of regular pentagon",
+              "Which shapes have both line and rotational symmetry?",
+              "Draw a shape with 3-fold rotational symmetry"
+            ]
+          }
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15: Visualising Solid Shapes",
+          "content": {
+            "introduction": "Understanding 3D shapes, nets, and cross-sections.",
+            "topics": [
+              {
+                "title": "Faces, Edges, Vertices",
+                "description": "Components of 3D shapes.",
+                "examples": [
+                  "Cube: 6 faces, 12 edges, 8 vertices",
+                  "Cylinder: 3 faces (2 flat, 1 curved)",
+                  "Cone: 2 faces (1 flat, 1 curved)"
+                ]
+              },
+              {
+                "title": "Nets of Solids",
+                "description": "2D patterns that fold into 3D shapes.",
+                "examples": [
+                  "Cube net: 6 connected squares",
+                  "Cylinder net: 2 circles + 1 rectangle"
+                ]
+              }
+            ],
+            "exercises": [
+              "How many faces does a triangular prism have?",
+              "Draw a net for a cube",
+              "Identify the solid from given net",
+              "Find edges of a pentagonal pyramid",
+              "Which 3D shape has no edges or vertices?"
+            ]
+          }
+        }
+      ]
+    },
