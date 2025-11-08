@@ -1,0 +1,235 @@
+{
+  "class": "5",
+  "board": "State Board",
+  "subjects": [
+    {
+      "id": "state5-english",
+      "name": "English",
+      "icon": "📖",
+      "chapters": [
+        {
+          "id": "state5-eng-ch1",
+          "title": "The Wonderful World",
+          "content": {
+            "introduction": "This chapter introduces students to the beauty of nature and the world around us through descriptive poems and stories.",
+            "topics": [
+              {
+                "title": "Reading and Comprehension",
+                "description": "Understanding the theme and message of the poem. Learning to appreciate descriptive language and imagery.",
+                "examples": [
+                  "Identify the main characters in the story",
+                  "Find descriptive words used for nature",
+                  "Explain the moral of the story"
+                ]
+              },
+              {
+                "title": "Vocabulary Building",
+                "description": "Learning new words related to nature, emotions, and daily life.",
+                "examples": [
+                  "Wonderful - extremely good or beautiful",
+                  "Magnificent - impressive in appearance",
+                  "Spectacular - beautiful in a dramatic way"
+                ]
+              }
+            ],
+            "exercises": [
+              "Read the poem and answer the questions",
+              "Write five sentences about your favorite season",
+              "Match the words with their meanings",
+              "Fill in the blanks with appropriate words"
+            ]
+          }
+        },
+        {
+          "id": "state5-eng-ch2",
+          "title": "Teamwork",
+          "content": {
+            "introduction": "A story that teaches the importance of working together and helping each other.",
+            "topics": [
+              {
+                "title": "Story Elements",
+                "description": "Understanding characters, setting, and plot in a story.",
+                "examples": [
+                  "Main characters and their roles",
+                  "The problem faced by characters",
+                  "How teamwork solved the problem"
+                ]
+              }
+            ],
+            "exercises": [
+              "Answer questions based on the story",
+              "Write about a time when you worked in a team",
+              "Circle the correct answer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state5-math",
+      "name": "Mathematics",
+      "icon": "🔢",
+      "chapters": [
+        {
+          "id": "state5-math-ch1",
+          "title": "Large Numbers",
+          "content": {
+            "introduction": "Understanding and working with numbers up to lakhs and crores. Learning to read, write, and compare large numbers.",
+            "topics": [
+              {
+                "title": "Place Value",
+                "description": "Understanding the position of digits in large numbers - ones, tens, hundreds, thousands, lakhs, and crores.",
+                "examples": [
+                  "In 45,678: 4 is in ten thousands place",
+                  "In 2,34,567: 2 is in lakhs place",
+                  "In 1,23,45,678: 1 is in crores place"
+                ]
+              },
+              {
+                "title": "Reading and Writing Numbers",
+                "description": "Converting numbers from figures to words and vice versa.",
+                "examples": [
+                  "5,67,890 = Five lakh sixty-seven thousand eight hundred ninety",
+                  "12,00,000 = Twelve lakh",
+                  "1,50,00,000 = One crore fifty lakh"
+                ]
+              },
+              {
+                "title": "Comparing Numbers",
+                "description": "Using greater than (>), less than (<), and equal to (=) signs to compare large numbers.",
+                "examples": [
+                  "5,67,890 > 5,67,089",
+                  "12,34,567 < 12,45,678",
+                  "10,00,000 = 1,000,000"
+                ]
+              }
+            ],
+            "exercises": [
+              "Write the place value of underlined digits",
+              "Write the following numbers in words: 8,56,789; 12,45,000",
+              "Arrange in ascending order: 5,67,890; 5,76,890; 5,67,980",
+              "Compare using >, <, or =: 9,87,654 ___ 9,78,654",
+              "Write the number name for 15,67,890"
+            ]
+          }
+        },
+        {
+          "id": "state5-math-ch2",
+          "title": "Addition and Subtraction",
+          "content": {
+            "introduction": "Mastering addition and subtraction of large numbers with carrying and borrowing.",
+            "topics": [
+              {
+                "title": "Addition with Carrying",
+                "description": "Adding large numbers when the sum of digits in any place exceeds 9.",
+                "examples": [
+                  "5,678 + 3,456 = 9,134",
+                  "45,789 + 23,456 = 69,245",
+                  "1,23,456 + 67,890 = 1,91,346"
+                ]
+              },
+              {
+                "title": "Subtraction with Borrowing",
+                "description": "Subtracting when digits in the minuend are smaller than corresponding digits in subtrahend.",
+                "examples": [
+                  "8,234 - 2,567 = 5,667",
+                  "56,789 - 23,456 = 33,333",
+                  "1,00,000 - 45,678 = 54,322"
+                ]
+              }
+            ],
+            "exercises": [
+              "Add: 45,678 + 32,456",
+              "Subtract: 87,654 - 23,789",
+              "Solve: 1,23,456 + 67,890 - 45,678",
+              "Find the missing number: 56,789 + ___ = 89,234",
+              "A farmer had 45,678 kg of rice. He sold 23,456 kg. How much rice is left?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state5-science",
+      "name": "Science",
+      "icon": "🔬",
+      "chapters": [
+        {
+          "id": "state5-sci-ch1",
+          "title": "Plants Around Us",
+          "content": {
+            "introduction": "Learning about different types of plants, their parts, and how they grow and survive.",
+            "topics": [
+              {
+                "title": "Parts of a Plant",
+                "description": "Understanding the main parts of a plant and their functions.",
+                "examples": [
+                  "Roots - absorb water and minerals from soil",
+                  "Stem - supports the plant and transports water",
+                  "Leaves - make food through photosynthesis",
+                  "Flowers - help in reproduction",
+                  "Fruits - protect seeds and help in dispersal"
+                ]
+              },
+              {
+                "title": "Types of Plants",
+                "description": "Classification of plants based on their characteristics.",
+                "examples": [
+                  "Herbs - small plants with soft stems (tomato, wheat)",
+                  "Shrubs - medium-sized plants with hard stems (rose, jasmine)",
+                  "Trees - tall plants with thick woody stems (mango, neem)"
+                ]
+              }
+            ],
+            "exercises": [
+              "Label the parts of a plant",
+              "Name three herbs, three shrubs, and three trees",
+              "Why are leaves called the food factory of plants?",
+              "Draw and color a flowering plant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state5-social",
+      "name": "Social Science",
+      "icon": "🌍",
+      "chapters": [
+        {
+          "id": "state5-soc-ch1",
+          "title": "Our Country India",
+          "content": {
+            "introduction": "Understanding India's geography, diversity, and unity in diversity.",
+            "topics": [
+              {
+                "title": "Location and Boundaries",
+                "description": "India's position on the world map and its neighboring countries.",
+                "examples": [
+                  "India is located in South Asia",
+                  "Neighbors: Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar",
+                  "Surrounded by Arabian Sea, Bay of Bengal, Indian Ocean"
+                ]
+              },
+              {
+                "title": "Unity in Diversity",
+                "description": "How India has many languages, religions, and cultures but remains united.",
+                "examples": [
+                  "Multiple languages spoken across states",
+                  "Different festivals celebrated",
+                  "Various food cultures and traditions"
+                ]
+              }
+            ],
+            "exercises": [
+              "Name the neighboring countries of India",
+              "Write about your state and its capital",
+              "What does 'Unity in Diversity' mean?",
+              "Draw the map of India and mark your state"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
