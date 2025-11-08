@@ -33,5 +33,318 @@
                   "Distributive: a × (b + c) = (a × b) + (a × c)"
                 ]
               },
-              {
-                "title": "Operations on Rational Numbers",
+                      {
+            "title": "Operations on Rational Numbers",
+            "description": "Addition, subtraction, multiplication, and division of rational numbers.",
+            "examples": [
+              "Addition: 2/3 + 4/5 = 10/15 + 12/15 = 22/15",
+              "Subtraction: 3/4 - 1/6 = 9/12 - 2/12 = 7/12",
+              "Multiplication: 2/3 × 3/5 = 6/15 = 2/5",
+              "Division: 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6"
+            ]
+          },
+          {
+            "title": "Rational Numbers on Number Line",
+            "description": "Representing rational numbers between integers on a number line.",
+            "examples": [
+              "1/2 lies between 0 and 1",
+              "-3/4 lies between -1 and 0",
+              "5/2 = 2.5 lies between 2 and 3"
+            ]
+          }
+        ],
+        "exercises": [
+          "Represent -3/5 on the number line",
+          "Find: 3/7 + (-5/7)",
+          "Simplify: 5/6 - 2/9",
+          "Multiply: (-3/4) × (8/9)",
+          "Divide: 7/8 ÷ (-3/4)",
+          "Find three rational numbers between 1/4 and 1/2",
+          "Verify commutative property for 2/3 and 4/5"
+        ]
+      }
+    },
+    {
+      "id": "state8-math-ch2",
+      "title": "Linear Equations in One Variable",
+      "content": {
+        "introduction": "Solving equations with one unknown variable using various methods.",
+        "topics": [
+          {
+            "title": "What is an Equation?",
+            "description": "A mathematical statement with an equal sign showing two expressions are equal.",
+            "examples": [
+              "2x + 3 = 7 is a linear equation",
+              "x² + 5 = 9 is NOT linear (has x²)",
+              "3x = 12 is linear",
+              "Variable can be any letter: x, y, z, etc."
+            ]
+          },
+          {
+            "title": "Solving Linear Equations",
+            "description": "Methods to find the value of the variable.",
+            "examples": [
+              "2x + 3 = 7 → 2x = 7 - 3 → 2x = 4 → x = 2",
+              "5x - 10 = 15 → 5x = 25 → x = 5",
+              "x/3 + 2 = 5 → x/3 = 3 → x = 9"
+            ]
+          },
+          {
+            "title": "Equations with Variables on Both Sides",
+            "description": "Bringing all variables to one side and constants to the other.",
+            "examples": [
+              "3x + 5 = 2x + 8 → 3x - 2x = 8 - 5 → x = 3",
+              "7y - 4 = 5y + 6 → 7y - 5y = 6 + 4 → 2y = 10 → y = 5"
+            ]
+          },
+          {
+            "title": "Word Problems",
+            "description": "Converting real-life situations into equations.",
+            "examples": [
+              "Sum of two numbers is 50, one is 3 times other. Find numbers.",
+              "Age problems: Father is 3 times son's age. After 10 years...",
+              "Number problems: A number increased by 15 gives 60..."
+            ]
+          }
+        ],
+        "exercises": [
+          "Solve: 3x + 5 = 20",
+          "Solve: 7y - 2 = 5y + 8",
+          "Solve: (2x/3) + 1 = 7",
+          "Solve: 5(x - 1) = 3(x + 2)",
+          "The sum of three consecutive integers is 24. Find the numbers.",
+          "A number when divided by 5 gives 8. Find the number.",
+          "Age of father is 3 times age of son. Sum of ages is 48. Find both ages."
+        ]
+      }
+    }
+  ]
+},
+{
+  "id": "state8-science",
+  "name": "Science",
+  "icon": "🔭",
+  "chapters": [
+    {
+      "id": "state8-sci-ch1",
+      "title": "Crop Production and Management",
+      "content": {
+        "introduction": "Understanding agricultural practices from sowing to harvesting and storage.",
+        "topics": [
+          {
+            "title": "Agricultural Practices",
+            "description": "Steps involved in crop production.",
+            "examples": [
+              "Preparation of soil - ploughing, levelling",
+              "Sowing - planting seeds at right depth and distance",
+              "Adding manure and fertilizers",
+              "Irrigation - watering crops",
+              "Protection from weeds and pests",
+              "Harvesting - cutting mature crops",
+              "Storage - keeping grains safe"
+            ]
+          },
+          {
+            "title": "Types of Crops",
+            "description": "Classification based on seasons.",
+            "examples": [
+              "Kharif crops - sown in rainy season (June-July): rice, maize, cotton",
+              "Rabi crops - sown in winter (October-November): wheat, gram, mustard",
+              "Different crops need different conditions"
+            ]
+          },
+          {
+            "title": "Manure and Fertilizers",
+            "description": "Adding nutrients to soil.",
+            "examples": [
+              "Manure - organic (from decomposed plants/animals)",
+              "Fertilizers - chemical compounds (urea, NPK)",
+              "Manure improves soil structure, fertilizers provide quick nutrients",
+              "Over-use of fertilizers harms soil"
+            ]
+          },
+          {
+            "title": "Irrigation Methods",
+            "description": "Different ways to water crops.",
+            "examples": [
+              "Traditional: moat, chain pump, dhekli",
+              "Modern: sprinkler system, drip irrigation",
+              "Drip irrigation saves water"
+            ]
+          }
+        ],
+        "exercises": [
+          "What are Kharif and Rabi crops? Give examples.",
+          "Explain the steps of crop production.",
+          "Differentiate between manure and fertilizers.",
+          "What is irrigation? Name two traditional methods.",
+          "Why is crop rotation beneficial?",
+          "How do weeds harm crops?",
+          "Draw a diagram of sprinkler irrigation system."
+        ]
+      }
+    },
+    {
+      "id": "state8-sci-ch2",
+      "title": "Microorganisms: Friend and Foe",
+      "content": {
+        "introduction": "Learning about tiny organisms invisible to naked eye - bacteria, viruses, fungi, protozoa.",
+        "topics": [
+          {
+            "title": "Types of Microorganisms",
+            "description": "Four major groups of microorganisms.",
+            "examples": [
+              "Bacteria - single-celled, rod/spherical shaped",
+              "Viruses - smallest, need host to survive",
+              "Fungi - mushrooms, yeast, mould",
+              "Protozoa - single-celled animals like Amoeba, Paramecium",
+              "Algae - simple plants like Spirogyra"
+            ]
+          },
+          {
+            "title": "Helpful Microorganisms",
+            "description": "Beneficial uses in daily life.",
+            "examples": [
+              "Making curd from milk (Lactobacillus)",
+              "Making bread (yeast causes fermentation)",
+              "Production of antibiotics (Penicillium)",
+              "Decomposition of waste",
+              "Nitrogen fixation in soil (Rhizobium)",
+              "Making vaccines"
+            ]
+          },
+          {
+            "title": "Harmful Microorganisms",
+            "description": "Diseases caused by microbes.",
+            "examples": [
+              "Bacteria: Typhoid, Tuberculosis, Cholera",
+              "Viruses: Common cold, Influenza, Polio, COVID-19",
+              "Fungi: Ringworm, Athlete's foot",
+              "Protozoa: Malaria, Amoebic dysentery",
+              "Food spoilage and poisoning"
+            ]
+          },
+          {
+            "title": "Food Preservation",
+            "description": "Methods to prevent microbial growth in food.",
+            "examples": [
+              "Heating and boiling",
+              "Pasteurization of milk",
+              "Refrigeration and freezing",
+              "Drying and salting",
+              "Adding preservatives",
+              "Vacuum packing"
+            ]
+          }
+        ],
+        "exercises": [
+          "Name four types of microorganisms.",
+          "How are microorganisms useful in making curd?",
+          "List three diseases caused by bacteria.",
+          "How does refrigeration prevent food spoilage?",
+          "What is pasteurization?",
+          "Draw and label a bacteria cell.",
+          "Why should we avoid eating stale food?"
+        ]
+      }
+    }
+  ]
+},
+{
+  "id": "state8-english",
+  "name": "English",
+  "icon": "📖",
+  "chapters": [
+    {
+      "id": "state8-eng-ch1",
+      "title": "The Best Christmas Present in the World",
+      "content": {
+        "introduction": "A touching story about a letter from World War I that becomes a precious Christmas gift.",
+        "topics": [
+          {
+            "title": "Story Summary",
+            "description": "The narrator finds an old letter in a roll-top desk, written by a soldier to his wife during WWI.",
+            "examples": [
+              "Letter describes Christmas truce of 1914",
+              "British and German soldiers celebrated together",
+              "Shows humanity during war",
+              "Old lady thinks narrator is her husband"
+            ]
+          },
+          {
+            "title": "Theme",
+            "description": "Love, hope, and the futility of war.",
+            "examples": [
+              "Letters keep memories alive",
+              "War separates loved ones",
+              "Peace and brotherhood matter more than conflict"
+            ]
+          }
+        ],
+        "exercises": [
+          "Who wrote the letter and to whom?",
+          "What did the soldiers do on Christmas Day?",
+          "Why was the letter the best Christmas present?",
+          "What message does the story convey about war?",
+          "Describe the Christmas truce of 1914."
+        ]
+      }
+    }
+  ]
+},
+{
+  "id": "state8-social",
+  "name": "Social Science",
+  "icon": "📜",
+  "chapters": [
+    {
+      "id": "state8-soc-ch1",
+      "title": "How, When and Where",
+      "content": {
+        "introduction": "Understanding how historians study the past and the periodization of Indian history.",
+        "topics": [
+          {
+            "title": "How do we know about the past?",
+            "description": "Sources of historical information.",
+            "examples": [
+              "Archaeological sources - monuments, coins, inscriptions",
+              "Literary sources - manuscripts, books, letters",
+              "Official documents - government records, reports",
+              "Surveys and maps"
+            ]
+          },
+          {
+            "title": "Periodization of History",
+            "description": "Division of history into periods.",
+            "examples": [
+              "Ancient period - up to 8th century",
+              "Medieval period - 8th to 18th century",
+              "Modern period - mid-18th century onwards",
+              "British divided: Hindu period, Muslim period, British period"
+            ]
+          },
+          {
+            "title": "British Records",
+            "description": "How British documented everything in India.",
+            "examples": [
+              "Survey of India - mapping the country",
+              "Census - counting population",
+              "Official reports and letters",
+              "Preserved in archives"
+            ]
+          }
+        ],
+        "exercises": [
+          "What are the different sources of history?",
+          "How is history divided into periods?",
+          "Why did the British conduct surveys?",
+          "What is an archive?",
+          "Why are official documents important for history?"
+        ]
+      }
+    }
+  ]
+}
+]
+}
+        
