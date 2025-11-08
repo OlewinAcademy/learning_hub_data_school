@@ -1,669 +1,576 @@
 {
   "class": "6",
   "board": "CBSE",
-  "subjects": [
+  "subject": "Mathematics",
+  "chapters": [
     {
-      "id": "mathematics",
-      "name": "Mathematics",
-      "icon": "📐",
-      "chapters": [
-        {
-          "id": "ch1",
-          "title": "Chapter 1: Knowing Our Numbers - Basics",
-          "content": {
-            "introduction": "This chapter introduces us to large numbers, their comparisons, and estimation. We learn about place value, face value, and how to read and write large numbers in Indian and International systems.",
-            "topics": [
-              {
-                "title": "Comparing Numbers",
-                "description": "Learning to compare large numbers using place value method. The number with more digits is greater, and if digits are same, we compare from leftmost digit.",
-                "examples": [
-                  "Compare 45,678 and 45,876: 45,876 is greater",
-                  "Compare 1,23,456 and 98,765: 1,23,456 is greater (more digits)"
-                ]
-              },
-              {
-                "title": "Large Numbers",
-                "description": "Understanding lakhs, crores, millions, and billions. Learning Indian and International number systems.",
-                "examples": [
-                  "1 lakh = 1,00,000",
-                  "1 crore = 1,00,00,000",
-                  "1 million = 10,00,000",
-                  "1 billion = 1,00,00,00,000"
-                ]
-              },
-              {
-                "title": "Estimation and Rounding",
-                "description": "Rounding numbers to nearest tens, hundreds, or thousands to make calculations easier.",
-                "examples": [
-                  "Round 567 to nearest hundred: 600",
-                  "Round 1,234 to nearest thousand: 1,000",
-                  "Estimate 47 + 89: Round to 50 + 90 = 140"
-                ]
-              },
-              {
-                "title": "Roman Numerals",
-                "description": "Understanding Roman numeral system using symbols I, V, X, L, C, D, M.",
-                "examples": [
-                  "I=1, V=5, X=10, L=50, C=100, D=500, M=1000",
-                  "XIV = 14, XIX = 19, XLIV = 44"
-                ]
-              }
-            ],
-            "exercises": [
-              "Write the greatest 5-digit number and smallest 6-digit number. Which is greater?",
-              "Round 79,865 to nearest thousand",
-              "Write in Roman numerals: 49, 99, 444",
-              "Estimate the sum: 5,290 + 17,986 + 8,150",
-              "Compare: 8,90,745 and 9,07,845"
+      "id": "cbse6-math-ch1",
+      "title": "Knowing Our Numbers",
+      "content": {
+        "definitions": [
+          "Natural Numbers: Counting numbers 1,2,3,4...",
+          "Whole Numbers: All natural numbers + 0",
+          "Place Value: The value of a digit based on its position",
+          "Face Value: Actual value of a digit"
+        ],
+        "formulas": [
+          "Successor = Number + 1",
+          "Predecessor = Number - 1",
+          "Expanded form shows place value of digits"
+        ],
+        "topics": [
+          "Comparing numbers",
+          "Place value & Face value",
+          "Reading and writing large numbers",
+          "Indian vs International System",
+          "Estimation"
+        ],
+        "solved_examples": [
+          {
+            "question": "Write 4,82,376 in words (Indian System).",
+            "solution": "Four lakh eighty-two thousand three hundred seventy-six."
+          },
+          {
+            "question": "Find the successor of 9999.",
+            "solution": "9999 + 1 = 10000"
+          },
+          {
+            "question": "Write 4,52,197 in expanded form.",
+            "solution": "4,00,000 + 50,000 + 2,000 + 100 + 90 + 7"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "Successor of 7000?",
+            "options": ["6999", "7001", "70000", "7999"],
+            "answer": "7001"
+          },
+          {
+            "question": "Smallest 5-digit number?",
+            "options": ["1000", "9999", "10000", "11111"],
+            "answer": "10000"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Write 95,07,326 in Indian and International systems and expanded form.",
+            "points": [
+              "Indian: Ninety-five lakh seven thousand three hundred twenty-six",
+              "International: 9,507,326 = Nine million five hundred seven thousand three hundred twenty-six",
+              "Expanded: 90,00,000 + 5,00,000 + 7,000 + 300 + 20 + 6"
             ]
           }
-        },
-        {
-          "id": "ch2",
-          "title": "Chapter 2: Whole Numbers",
-          "content": {
-            "introduction": "Whole numbers include natural numbers and zero. This chapter covers properties of whole numbers, number line representation, and basic operations.",
-            "topics": [
-              {
-                "title": "Properties of Whole Numbers",
-                "description": "Understanding closure, commutativity, associativity, and identity properties.",
-                "examples": [
-                  "Closure: 5 + 3 = 8 (whole number)",
-                  "Commutative: 4 + 7 = 7 + 4 = 11",
-                  "Associative: (2 + 3) + 5 = 2 + (3 + 5) = 10",
-                  "Identity: 8 + 0 = 8"
-                ]
-              },
-              {
-                "title": "Number Line",
-                "description": "Representing whole numbers on a number line and understanding their positions.",
-                "examples": [
-                  "0 is to the left of all natural numbers",
-                  "Moving right increases value",
-                  "Distance between consecutive numbers is 1"
-                ]
-              },
-              {
-                "title": "Predecessor and Successor",
-                "description": "Number before is predecessor, number after is successor.",
-                "examples": [
-                  "Predecessor of 56 is 55",
-                  "Successor of 99 is 100",
-                  "0 has no predecessor in whole numbers"
-                ]
-              }
-            ],
-            "exercises": [
-              "Find: (15 × 8) × 5 using associative property",
-              "What is the predecessor of the smallest 4-digit number?",
-              "Verify commutativity for: 23 + 45 and 45 + 23",
-              "Show that 0 is the additive identity",
-              "Find the product using distributive property: 105 × 6"
-            ]
+        ],
+        "real_life_applications": [
+          "Reading population & bank amounts",
+          "Reading electricity/water bills",
+          "Understanding price comparisons"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch2",
+      "title": "Whole Numbers",
+      "content": {
+        "definitions": [
+          "Whole Numbers: 0,1,2,3,...",
+          "Number Line: Representation of numbers on a line",
+          "Identity Elements: a+0=a and a×1=a"
+        ],
+        "formulas": [
+          "Commutative: a+b=b+a, a×b=b×a",
+          "Associative: (a+b)+c=a+(b+c)",
+          "Distributive: a(b+c)=ab+ac"
+        ],
+        "solved_examples": [
+          {
+            "question": "Find 45 + 0.",
+            "solution": "45"
+          },
+          {
+            "question": "Find 13 × (10 + 2).",
+            "solution": "13×12 = 156 (Using distributive law: 13×10 + 13×2)"
           }
-        },
-        {
-          "id": "ch3",
-          "title": "Chapter 3: Playing with Numbers",
-          "content": {
-            "introduction": "Learning about factors, multiples, prime and composite numbers, divisibility rules, HCF and LCM.",
-            "topics": [
-              {
-                "title": "Factors and Multiples",
-                "description": "Factors divide a number completely, multiples are obtained by multiplying.",
-                "examples": [
-                  "Factors of 12: 1, 2, 3, 4, 6, 12",
-                  "Multiples of 5: 5, 10, 15, 20, 25...",
-                  "1 is a factor of every number"
-                ]
-              },
-              {
-                "title": "Prime and Composite Numbers",
-                "description": "Prime numbers have exactly two factors (1 and itself). Composite have more than two factors.",
-                "examples": [
-                  "Prime: 2, 3, 5, 7, 11, 13, 17, 19, 23...",
-                  "Composite: 4, 6, 8, 9, 10, 12, 14, 15...",
-                  "1 is neither prime nor composite",
-                  "2 is the only even prime number"
-                ]
-              },
-              {
-                "title": "Divisibility Tests",
-                "description": "Rules to check if a number is divisible by 2, 3, 4, 5, 6, 8, 9, 10, 11.",
-                "examples": [
-                  "Divisible by 2: Last digit is 0, 2, 4, 6, or 8",
-                  "Divisible by 3: Sum of digits divisible by 3",
-                  "Divisible by 5: Last digit is 0 or 5",
-                  "Divisible by 10: Last digit is 0"
-                ]
-              },
-              {
-                "title": "HCF and LCM",
-                "description": "Highest Common Factor and Lowest Common Multiple of numbers.",
-                "examples": [
-                  "HCF of 12 and 18 = 6",
-                  "LCM of 4 and 6 = 12",
-                  "HCF × LCM = Product of numbers"
-                ]
-              }
-            ],
-            "exercises": [
-              "Find all prime numbers between 1 and 50",
-              "Check divisibility of 5,785 by 3, 5, and 9",
-              "Find HCF and LCM of 24 and 36",
-              "Express 84 as product of prime factors",
-              "What is the smallest number divisible by 2, 3, and 5?"
-            ]
+        ],
+        "mcqs": [
+          {
+            "question": "Which is a whole number?",
+            "options": ["-3", "5", "1/2", "-1"],
+            "answer": "5"
           }
-        },
-        {
-          "id": "ch4",
-          "title": "Chapter 4: Basic Geometrical Ideas",
-          "content": {
-            "introduction": "Introduction to points, lines, line segments, rays, angles, triangles, and other geometric shapes.",
-            "topics": [
-              {
-                "title": "Points and Lines",
-                "description": "A point has no dimension, a line extends infinitely in both directions.",
-                "examples": [
-                  "Point A is denoted as •A",
-                  "Line AB is written as ↔AB",
-                  "Infinite points lie on a line"
-                ]
-              },
-              {
-                "title": "Line Segment and Ray",
-                "description": "Line segment has two endpoints, ray has one endpoint and extends infinitely in one direction.",
-                "examples": [
-                  "Line segment AB: A•——————•B",
-                  "Ray AB starts at A and goes through B: A•——————→",
-                  "Length can be measured for line segments only"
-                ]
-              },
-              {
-                "title": "Angles",
-                "description": "Formed by two rays with common endpoint (vertex).",
-                "examples": [
-                  "Acute angle: < 90°",
-                  "Right angle: = 90°",
-                  "Obtuse angle: > 90° and < 180°",
-                  "Straight angle: = 180°"
-                ]
-              },
-              {
-                "title": "Triangles",
-                "description": "Closed figure with three sides and three angles.",
-                "examples": [
-                  "Equilateral: All sides equal",
-                  "Isosceles: Two sides equal",
-                  "Scalene: No sides equal",
-                  "Sum of angles = 180°"
-                ]
-              }
-            ],
-            "exercises": [
-              "How many line segments can be drawn through two points?",
-              "Name three rays in the figure (provide a figure)",
-              "Measure and classify the angles in a given triangle",
-              "Draw an obtuse angle and label it",
-              "How many diagonals does a pentagon have?"
-            ]
+        ],
+        "long_questions": [
+          {
+            "question": "Explain properties of whole numbers with examples."
           }
-        },
-        {
-          "id": "ch5",
-          "title": "Chapter 5: Understanding Elementary Shapes",
-          "content": {
-            "introduction": "Study of 2D and 3D shapes, their properties, measurements, and classifications.",
-            "topics": [
-              {
-                "title": "2D Shapes",
-                "description": "Flat shapes with length and breadth only - circles, triangles, squares, rectangles.",
-                "examples": [
-                  "Circle: All points equidistant from center",
-                  "Square: 4 equal sides, 4 right angles",
-                  "Rectangle: Opposite sides equal, 4 right angles",
-                  "Triangle: 3 sides, 3 angles"
-                ]
-              },
-              {
-                "title": "3D Shapes",
-                "description": "Solid shapes with length, breadth, and height.",
-                "examples": [
-                  "Cube: 6 square faces, 12 edges, 8 vertices",
-                  "Cuboid: 6 rectangular faces",
-                  "Sphere: Perfectly round",
-                  "Cylinder: 2 circular faces, 1 curved surface"
-                ]
-              },
-              {
-                "title": "Measuring Angles",
-                "description": "Using protractor to measure angles in degrees.",
-                "examples": [
-                  "Place center of protractor at vertex",
-                  "Align one ray with 0° line",
-                  "Read where other ray crosses the scale"
-                ]
-              }
-            ],
-            "exercises": [
-              "Identify faces, edges, and vertices of a cube",
-              "Measure angles: 45°, 90°, 135° using protractor",
-              "Classify triangles based on given angles",
-              "Name 5 objects around you shaped like a cylinder",
-              "Draw a pentagon and measure its angles"
-            ]
+        ],
+        "real_life_applications": [
+          "Counting objects",
+          "Billing and payment",
+          "Distance measurement"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch3",
+      "title": "Playing with Numbers",
+      "content": {
+        "definitions": [
+          "Factor: Divides a number exactly",
+          "Multiple: Comes in a table of number",
+          "Prime Number: Only 2 factors (1 & itself)",
+          "Composite Number: More than 2 factors",
+          "LCM: Least Common Multiple",
+          "HCF: Highest Common Factor"
+        ],
+        "formulas": [
+          "Divisibility rules 2,3,5,9,10",
+          "HCF by prime factorization",
+          "LCM by prime factorization",
+          "HCF × LCM = product of numbers"
+        ],
+        "solved_examples": [
+          {
+            "question": "Find LCM of 6 and 8.",
+            "solution": "6=2×3, 8=2×2×2 ⇒ LCM=2×2×2×3=24"
+          },
+          {
+            "question": "Check divisibility of 345 by 5.",
+            "solution": "Last digit 5 → divisible."
           }
-        },
-        {
-          "id": "ch6",
-          "title": "Chapter 6: Integers",
-          "content": {
-            "introduction": "Integers include positive numbers, negative numbers, and zero. Used to represent opposite situations like profit-loss, above-below sea level.",
-            "topics": [
-              {
-                "title": "Understanding Integers",
-                "description": "Numbers with + or - signs representing opposite directions or values.",
-                "examples": [
-                  "..., -3, -2, -1, 0, 1, 2, 3, ...",
-                  "Temperature: 5°C above zero = +5°C, 3°C below zero = -3°C",
-                  "Loss of ₹50 = -50, Profit of ₹100 = +100"
-                ]
-              },
-              {
-                "title": "Number Line for Integers",
-                "description": "Negative numbers on left of zero, positive on right.",
-                "examples": [
-                  "←———|-3-|-2-|-1-|0|+1|+2|+3|———→",
-                  "Moving right increases value",
-                  "Moving left decreases value"
-                ]
-              },
-              {
-                "title": "Operations on Integers",
-                "description": "Adding and subtracting integers using number line and rules.",
-                "examples": [
-                  "(+3) + (+2) = +5",
-                  "(+5) + (-3) = +2",
-                  "(-4) + (-2) = -6",
-                  "(-3) - (-5) = -3 + 5 = +2"
-                ]
-              },
-              {
-                "title": "Comparing Integers",
-                "description": "Positive numbers > 0, negative numbers < 0, larger negative is smaller.",
-                "examples": [
-                  "5 > 0 > -5",
-                  "-2 > -7",
-                  "Between -10 and +10, +10 is greatest, -10 is smallest"
-                ]
-              }
-            ],
-            "exercises": [
-              "Arrange in ascending order: -5, 0, 3, -8, 7, -1",
-              "Add: (-15) + (+8) + (-3)",
-              "Subtract: (-7) - (-12)",
-              "A submarine is at -250m. It rises 100m. What is its new position?",
-              "Find the sum of all integers from -5 to +5"
-            ]
+        ],
+        "mcqs": [
+          {
+            "question": "Smallest prime number?",
+            "options": ["1","2","3","5"],
+            "answer": "2"
           }
-        },
-        {
-          "id": "ch7",
-          "title": "Chapter 7: Fractions",
-          "content": {
-            "introduction": "Understanding parts of a whole, types of fractions, and operations on fractions.",
-            "topics": [
-              {
-                "title": "Types of Fractions",
-                "description": "Proper, improper, mixed fractions, and equivalent fractions.",
-                "examples": [
-                  "Proper: Numerator < Denominator (3/4, 2/5)",
-                  "Improper: Numerator ≥ Denominator (5/3, 7/4)",
-                  "Mixed: Whole number + Proper fraction (2 1/2)",
-                  "Equivalent: 1/2 = 2/4 = 3/6"
-                ]
-              },
-              {
-                "title": "Simplifying Fractions",
-                "description": "Reducing fractions to lowest terms by dividing by HCF.",
-                "examples": [
-                  "8/12 = 2/3 (divide by 4)",
-                  "15/25 = 3/5 (divide by 5)",
-                  "6/9 = 2/3 (divide by 3)"
-                ]
-              },
-              {
-                "title": "Addition and Subtraction",
-                "description": "For same denominators: add/subtract numerators. For different: find LCM.",
-                "examples": [
-                  "2/5 + 1/5 = 3/5",
-                  "1/3 + 1/4 = 4/12 + 3/12 = 7/12",
-                  "3/4 - 1/2 = 3/4 - 2/4 = 1/4"
-                ]
-              },
-              {
-                "title": "Multiplication and Division",
-                "description": "Multiply numerators and denominators. For division, multiply by reciprocal.",
-                "examples": [
-                  "2/3 × 3/4 = 6/12 = 1/2",
-                  "1/2 ÷ 3/4 = 1/2 × 4/3 = 4/6 = 2/3"
-                ]
-              }
-            ],
-            "exercises": [
-              "Convert to mixed fraction: 17/5",
-              "Find three equivalent fractions of 2/3",
-              "Add: 3/7 + 2/5",
-              "Simplify: 18/24",
-              "Divide: 4/5 ÷ 2/3"
-            ]
+        ],
+        "long_questions": [
+          {
+            "question": "Find HCF and LCM of 12 and 18 using prime factorization."
           }
-        },
-        {
-          "id": "ch8",
-          "title": "Chapter 8: Decimals",
-          "content": {
-            "introduction": "Decimal numbers represent parts of a whole using place value system with decimal point.",
-            "topics": [
-              {
-                "title": "Understanding Decimals",
-                "description": "Tenths, hundredths, thousandths place values after decimal point.",
-                "examples": [
-                  "0.5 = 5/10 = 1/2",
-                  "0.25 = 25/100 = 1/4",
-                  "3.14 = 3 + 1/10 + 4/100"
-                ]
-              },
-              {
-                "title": "Comparing Decimals",
-                "description": "Compare whole number parts first, then decimal parts.",
-                "examples": [
-                  "3.45 < 3.5 (compare tenths: 4 < 5)",
-                  "0.9 > 0.89 (0.90 > 0.89)",
-                  "2.5 = 2.50 = 2.500"
-                ]
-              },
-              {
-                "title": "Operations on Decimals",
-                "description": "Adding, subtracting, multiplying, and dividing decimals.",
-                "examples": [
-                  "3.5 + 2.25 = 5.75",
-                  "5.6 - 2.3 = 3.3",
-                  "2.5 × 3 = 7.5",
-                  "6.4 ÷ 2 = 3.2"
-                ]
-              }
-            ],
-            "exercises": [
-              "Convert to decimals: 3/5, 7/20, 11/25",
-              "Arrange in descending order: 2.5, 2.05, 2.55, 2.005",
-              "Add: 12.45 + 3.678 + 0.9",
-              "Multiply: 3.6 × 2.5",
-              "A rope is 5.5m long. 2.3m is cut off. What length remains?"
-            ]
+        ],
+        "real_life_applications": [
+          "Cycle patterns (traffic lights)",
+          "LCM in timing repeating events",
+          "HCF in splitting items equally"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch4",
+      "title": "Basic Geometrical Ideas",
+      "content": {
+        "definitions": [
+          "Point, Line, Line Segment, Ray",
+          "Parallel & Intersecting lines",
+          "Triangle, Quadrilateral, Circle",
+          "Radius, Diameter, Chord, Arc"
+        ],
+        "formulas": [
+          "Diameter = 2 × Radius"
+        ],
+        "solved_examples": [
+          {
+            "question": "Draw a circle and mark radius & diameter.",
+            "solution": "Diameter is twice radius."
           }
-        },
-        {
-          "id": "ch9",
-          "title": "Chapter 9: Data Handling",
-          "content": {
-            "introduction": "Collection, organization, and interpretation of data using tables, pictographs, and bar graphs.",
-            "topics": [
-              {
-                "title": "Recording Data",
-                "description": "Using tally marks and frequency tables to organize data.",
-                "examples": [
-                  "Tally marks: | || ||| |||| ||||",
-                  "Fifth mark crosses previous four",
-                  "Frequency = Number of times an item occurs"
-                ]
-              },
-              {
-                "title": "Pictographs",
-                "description": "Using pictures/symbols to represent data.",
-                "examples": [
-                  "1 symbol = 5 units",
-                  "Half symbol = 2.5 units",
-                  "Easy to understand, visually appealing"
-                ]
-              },
-              {
-                "title": "Bar Graphs",
-                "description": "Using bars of uniform width to show data.",
-                "examples": [
-                  "Height/length represents value",
-                  "Equal spacing between bars",
-                  "Scale should be uniform"
-                ]
-              }
-            ],
-            "exercises": [
-              "Make a frequency table for: A, B, A, C, B, A, A, C, B, A",
-              "Draw a pictograph for students in different classes",
-              "Create a bar graph for monthly rainfall data",
-              "Find the most and least frequent item from given data",
-              "Interpret data from a given bar graph"
-            ]
+        ],
+        "mcqs": [
+          {
+            "question": "How many endpoints does a ray have?",
+            "options": ["1","2","none","3"],
+            "answer": "1"
           }
-        },
-        {
-          "id": "ch10",
-          "title": "Chapter 10: Mensuration",
-          "content": {
-            "introduction": "Measurement of perimeter and area of rectangles, squares, and triangles.",
-            "topics": [
-              {
-                "title": "Perimeter",
-                "description": "Total length of boundary of a closed figure.",
-                "examples": [
-                  "Rectangle: P = 2(l + b)",
-                  "Square: P = 4 × side",
-                  "Triangle: P = sum of all three sides"
-                ]
-              },
-              {
-                "title": "Area",
-                "description": "Space occupied by a 2D shape, measured in square units.",
-                "examples": [
-                  "Rectangle: A = l × b",
-                  "Square: A = side × side",
-                  "Triangle: A = 1/2 × base × height"
-                ]
-              },
-              {
-                "title": "Units of Measurement",
-                "description": "Converting between different units.",
-                "examples": [
-                  "1 km = 1000 m",
-                  "1 m = 100 cm",
-                  "1 cm = 10 mm",
-                  "1 sq.m = 10,000 sq.cm"
-                ]
-              }
-            ],
-            "exercises": [
-              "Find perimeter of rectangle with l=15cm, b=8cm",
-              "Area of square with side 12m",
-              "A triangular park has base 50m and height 30m. Find area.",
-              "Convert 5 km to meters and centimeters",
-              "A wire of length 40cm forms a square. Find area."
-            ]
+        ],
+        "long_questions": [
+          {
+            "question": "Explain parts of a circle with a labeled diagram."
           }
-        },
-        {
-          "id": "ch11",
-          "title": "Chapter 11: Algebra",
-          "content": {
-            "introduction": "Introduction to variables, expressions, and simple equations.",
-            "topics": [
-              {
-                "title": "Variables",
-                "description": "Letters representing unknown values that can change.",
-                "examples": [
-                  "x, y, z, a, b, c",
-                  "If age = x, then after 5 years = x + 5",
-                  "If cost per item = y, then 10 items = 10y"
-                ]
-              },
-              {
-                "title": "Expressions",
-                "description": "Combinations of variables, constants, and operations.",
-                "examples": [
-                  "3x + 5",
-                  "2y - 7",
-                  "a + b",
-                  "4m - 3n + 2"
-                ]
-              },
-              {
-                "title": "Like and Unlike Terms",
-                "description": "Terms with same variables are like terms.",
-                "examples": [
-                  "Like: 3x and 5x, 2y and -7y",
-                  "Unlike: 3x and 3y, 5a and 5b",
-                  "Simplify: 5x + 3x = 8x"
-                ]
-              },
-              {
-                "title": "Simple Equations",
-                "description": "Statements of equality with variables.",
-                "examples": [
-                  "x + 5 = 12, so x = 7",
-                  "2y = 10, so y = 5",
-                  "m - 3 = 8, so m = 11"
-                ]
-              }
-            ],
-            "exercises": [
-              "Simplify: 7x + 3x - 2x",
-              "If x = 4, find the value of 3x + 5",
-              "Solve: x + 7 = 15",
-              "Write expression: 5 more than twice a number",
-              "Combine like terms: 4a + 3b - 2a + 5b"
-            ]
+        ],
+        "real_life_applications": [
+          "Road intersections",
+          "Wheel radius-diameter",
+          "House architecture"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch5",
+      "title": "Understanding Elementary Shapes",
+      "content": {
+        "definitions": [
+          "Right angle = 90°",
+          "Acute angle < 90°",
+          "Obtuse angle > 90° <180°",
+          "Straight angle = 180°"
+        ],
+        "formulas": [
+          "Triangle: sum of angles =180°"
+        ],
+        "solved_examples": [
+          {
+            "question": "Identify angle of 120°.",
+            "solution": "Obtuse angle"
           }
-        },
-        {
-          "id": "ch12",
-          "title": "Chapter 12: Ratio and Proportion",
-          "content": {
-            "introduction": "Comparing quantities using ratios and understanding proportions.",
-            "topics": [
-              {
-                "title": "Ratio",
-                "description": "Comparison of two quantities of same kind.",
-                "examples": [
-                  "2:3 means 2 parts to 3 parts",
-                  "In simplest form: 4:6 = 2:3",
-                  "Order matters: 2:3 ≠ 3:2"
-                ]
-              },
-              {
-                "title": "Proportion",
-                "description": "Equality of two ratios.",
-                "examples": [
-                  "2:3 = 4:6 (proportion)",
-                  "a:b = c:d means a×d = b×c",
-                  "If 2:3 = x:15, then x = 10"
-                ]
-              },
-              {
-                "title": "Unitary Method",
-                "description": "Finding value of single unit first.",
-                "examples": [
-                  "5 pens cost ₹25, 1 pen = ₹5, 8 pens = ₹40",
-                  "If 3 kg costs ₹90, 1 kg = ₹30, 7 kg = ₹210"
-                ]
-              }
-            ],
-            "exercises": [
-              "Express in simplest form: 18:24",
-              "Check if 3:4 and 12:16 are in proportion",
-              "Find x if 5:x = 15:12",
-              "12 books cost ₹480. Find cost of 18 books.",
-              "Divide ₹500 in ratio 2:3"
-            ]
+        ],
+        "mcqs": [
+          {
+            "question": "Angle in a straight line?",
+            "options": ["90°","180°","360°","45°"],
+            "answer": "180°"
           }
-        },
-        {
-          "id": "ch13",
-          "title": "Chapter 13: Symmetry",
-          "content": {
-            "introduction": "Understanding lines of symmetry and symmetrical shapes.",
-            "topics": [
-              {
-                "title": "Line Symmetry",
-                "description": "A shape has line symmetry if it can be folded along a line so both halves match.",
-                "examples": [
-                  "Square: 4 lines of symmetry",
-                  "Rectangle: 2 lines of symmetry",
-                  "Circle: Infinite lines of symmetry",
-                  "Isosceles triangle: 1 line of symmetry"
-                ]
-              },
-              {
-                "title": "Symmetrical Figures",
-                "description": "Shapes that look the same after reflection.",
-                "examples": [
-                  "Letters with symmetry: A, H, I, M, O, T, U, V, W, X, Y",
-                  "Asymmetric letters: F, G, J, L, N, P, Q, R, S, Z"
-                ]
-              }
-            ],
-            "exercises": [
-              "Draw all lines of symmetry for a regular hexagon",
-              "Identify symmetric letters in your name",
-              "Complete the symmetric figure given half",
-              "How many lines of symmetry does an equilateral triangle have?",
-              "Draw a shape with exactly 2 lines of symmetry"
-            ]
+        ],
+        "long_questions": [
+          {
+            "question": "Classify angles & give real-life examples."
           }
-        },
-        {
-          "id": "ch14",
-          "title": "Chapter 14: Practical Geometry",
-          "content": {
-            "introduction": "Construction of geometric figures using compass and ruler.",
-            "topics": [
-              {
-                "title": "Circle",
-                "description": "Drawing circles with given radius.",
-                "examples": [
-                  "Place compass point at center",
-                  "Set radius on compass",
-                  "Draw smooth arc completing the circle"
-                ]
-              },
-              {
-                "title": "Line Segments",
-                "description": "Drawing and measuring line segments.",
-                "examples": [
-                  "Use ruler to measure length",
-                  "Mark two points and join with straight line",
-                  "Perpendicular bisector divides segment equally at 90°"
-                ]
-              },
-              {
-                "title": "Angles",
-                "description": "Constructing angles using protractor and compass.",
-                "examples": [
-                  "60° angle using compass (equilateral triangle)",
-                  "90° angle using set square or compass",
-                  "Angle bisector divides angle into two equal parts"
-                ]
-              }
-            ],
-            "exercises": [
-              "Draw a circle of radius 4 cm",
-              "Construct a line segment of length 7.5 cm",
-              "Draw a 60° angle using compass",
-              "Bisect a given angle of 80°",
-              "Construct a perpendicular bisector of a line segment"
-            ]
+        ],
+        "real_life_applications": [
+          "Clock hands",
+          "Engineering & carpentry",
+          "Building design"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch6",
+      "title": "Integers",
+      "content": {
+        "definitions": [
+          "Integers: ..., -3, -2, -1, 0, 1, 2, 3...",
+          "Opposite numbers: equal distance from 0"
+        ],
+        "formulas": [
+          "Addition and subtraction rule",
+          "(-a) + a = 0"
+        ],
+        "solved_examples": [
+          {
+            "question": "(-7) + 5 = ?",
+            "solution": "-2"
+          },
+          {
+            "question": "6 - (-3) = ?",
+            "solution": "6+3 = 9"
           }
-        }
-      ]
+        ],
+        "mcqs": [
+          {
+            "question": "Opposite of -8?",
+            "options": ["8","-8","-1","0"],
+            "answer": "8"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Explain integer addition on number line."
+          }
+        ],
+        "real_life_applications": [
+          "Temperatures",
+          "Bank credits/debits",
+          "Height above/below sea level"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch7",
+      "title": "Fractions",
+      "content": {
+        "definitions": [
+          "Proper, Improper, Mixed Fraction",
+          "Equivalent fractions",
+          "Like & Unlike fractions"
+        ],
+        "formulas": [
+          "a/b = (a×n)/(b×n)",
+          "LCM of denominators for addition"
+        ],
+        "solved_examples": [
+          {
+            "question": "Add 1/2 + 1/3",
+            "solution": "LCM 6 → 3/6 + 2/6 = 5/6"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "1/2 = ?/6",
+            "options": ["2","3","4","6"],
+            "answer": "3"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Convert 3 1/2 to improper fraction."
+          }
+        ],
+        "real_life_applications": [
+          "Cooking ingredients",
+          "Dividing money or objects",
+          "Measurements"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch8",
+      "title": "Decimals",
+      "content": {
+        "definitions": [
+          "Decimal: number with a fractional part",
+          "Tenths, Hundredths, Thousandths"
+        ],
+        "formulas": [
+          "Addition/subtraction like whole numbers by decimal alignment"
+        ],
+        "solved_examples": [
+          {
+            "question": "2.35 + 3.7 = ?",
+            "solution": "6.05"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "0.5 = ?/10",
+            "options": ["5","50","1","10"],
+            "answer": "5"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Convert 2.75 to fraction and simplest form."
+          }
+        ],
+        "real_life_applications": [
+          "Money & currency",
+          "Weighing fruits",
+          "Petrol measurement"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch9",
+      "title": "Data Handling",
+      "content": {
+        "definitions": [
+          "Data, Tally Marks, Pictograph, Bar Graph"
+        ],
+        "formulas": [
+          "Frequency count",
+          "Bar graph comparison"
+        ],
+        "solved_examples": [
+          {
+            "question": "Draw bar graph for given data: Apples=4, Mango=6.",
+            "solution": "Apples height 4, Mango 6"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "Which graph uses pictures?",
+            "options": ["Bar","Pie","Pictograph","Line"],
+            "answer": "Pictograph"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Explain how to draw a bar graph with steps."
+          }
+        ],
+        "real_life_applications": [
+          "Weather charts",
+          "Election results",
+          "Sales comparison"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch10",
+      "title": "Mensuration",
+      "content": {
+        "definitions": [
+          "Perimeter: boundary length",
+          "Area: region inside a shape"
+        ],
+        "formulas": [
+          "Perimeter (rectangle) = 2(l + b)",
+          "Perimeter (square) = 4a",
+          "Area (rectangle) = l × b",
+          "Area (square) = a²"
+        ],
+        "solved_examples": [
+          {
+            "question": "Find area of square of side 5 cm",
+            "solution": "a² = 25 cm²"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "Area of rectangle = ?",
+            "options": ["l+b", "2l+2b", "l×b", "4l"],
+            "answer": "l×b"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Find perimeter and area of rectangle 12cm × 8cm."
+          }
+        ],
+        "real_life_applications": [
+          "Plot boundary fencing",
+          "Floor tiling cost",
+          "Painting walls"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch11",
+      "title": "Algebra",
+      "content": {
+        "definitions": [
+          "Variable: letter representing value",
+          "Equation: equality of two expressions"
+        ],
+        "formulas": [
+          "x + a = b → x = b - a"
+        ],
+        "solved_examples": [
+          {
+            "question": "Solve x+5=12",
+            "solution": "x=7"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "In x+3=10, x=?",
+            "options": ["3","7","10","13"],
+            "answer": "7"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Explain variable, constant and algebraic expression with examples."
+          }
+        ],
+        "real_life_applications": [
+          "Finding unknown quantities",
+          "Speed-distance-time problems"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch12",
+      "title": "Ratio and Proportion",
+      "content": {
+        "definitions": [
+          "Ratio: Comparison of two quantities",
+          "Proportion: Equivalence of two ratios"
+        ],
+        "formulas": [
+          "a:b = c:d → ad = bc"
+        ],
+        "solved_examples": [
+          {
+            "question": "Find ratio of 2kg to 500g",
+            "solution": "2kg = 2000g → 2000:500 = 4:1"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "Which is proportional? 2/4 and 3/6?",
+            "options": ["Yes","No"],
+            "answer": "Yes"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Explain proportion with real-life example."
+          }
+        ],
+        "real_life_applications": [
+          "Maps",
+          "Recipes",
+          "Scale models"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch13",
+      "title": "Symmetry",
+      "content": {
+        "definitions": [
+          "Line of symmetry: divides shape into two equal halves"
+        ],
+        "solved_examples": [
+          {
+            "question": "Lines of symmetry in square?",
+            "solution": "4"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "Triangle with 3 lines of symmetry?",
+            "options": ["Equilateral","Isosceles","Scalene","Right"],
+            "answer": "Equilateral"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Explain symmetry in nature & objects."
+          }
+        ],
+        "real_life_applications": [
+          "Art and design",
+          "Logos",
+          "Architecture"
+        ]
+      }
+    },
+
+    {
+      "id": "cbse6-math-ch14",
+      "title": "Practical Geometry",
+      "content": {
+        "definitions": [
+          "Construction: drawing shapes with tools"
+        ],
+        "solved_examples": [
+          {
+            "question": "Construct angle 60°",
+            "solution": "Use compass and ruler"
+          }
+        ],
+        "mcqs": [
+          {
+            "question": "Tool to draw arcs?",
+            "options": ["Ruler","Compass","Divider","Protractor"],
+            "answer": "Compass"
+          }
+        ],
+        "long_questions": [
+          {
+            "question": "Steps to construct a triangle with given sides."
+          }
+        ],
+        "real_life_applications": [
+          "Engineering",
+          "Blueprints",
+          "Maps and models"
+        ]
+      }
     }
   ]
 }
