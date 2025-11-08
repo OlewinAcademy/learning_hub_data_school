@@ -1,0 +1,252 @@
+{
+  "class": "10",
+  "board": "State Board",
+  "subjects": [
+    {
+      "id": "state10-math",
+      "name": "Mathematics",
+      "icon": "➗",
+      "chapters": [
+        {
+          "id": "state10-math-ch1",
+          "title": "Real Numbers",
+          "content": {
+            "introduction": "Understanding Euclid's division lemma, fundamental theorem of arithmetic, and irrational numbers.",
+            "topics": [
+              {
+                "title": "Euclid’s Division Lemma",
+                "description": "Used to find HCF of two numbers.",
+                "examples": [
+                  "a = bq + r, where 0 ≤ r < b",
+                  "HCF of 56 and 96 using division method"
+                ]
+              },
+              {
+                "title": "Fundamental Theorem of Arithmetic",
+                "description": "Every composite number can be written as product of primes.",
+                "examples": [
+                  "20 = 2×2×5",
+                  "90 = 2 × 3² × 5"
+                ]
+              },
+              {
+                "title": "Irrational Numbers Proofs",
+                "description": "Proving √2, √3, √5 are irrational.",
+                "examples": [
+                  "Proof by contradiction",
+                  "Assume √2 = p/q leads to contradiction"
+                ]
+              }
+            ],
+            "exercises": [
+              "Find HCF of 135 and 225 using Euclid’s lemma.",
+              "Prime factorize: 98, 210, 360.",
+              "Prove √5 is irrational.",
+              "Find LCM and HCF of 6, 20, 30."
+            ]
+          }
+        },
+        {
+          "id": "state10-math-ch2",
+          "title": "Polynomials",
+          "content": {
+            "introduction": "Relationships between zeroes and coefficients of quadratic polynomials, division algorithm.",
+            "topics": [
+              {
+                "title": "Zeroes of Polynomial",
+                "description": "Value of x where p(x)=0.",
+                "examples": [
+                  "For x²-5x+6, zeroes: 2 and 3",
+                  "For x²+4x+4, zero = -2"
+                ]
+              },
+              {
+                "title": "Relationship of Zeroes and Coefficients",
+                "description": "Sum and product of zeroes.",
+                "examples": [
+                  "α + β = -b/a",
+                  "αβ = c/a"
+                ]
+              },
+              {
+                "title": "Polynomial Division",
+                "description": "Dividing one polynomial by another.",
+                "examples": [
+                  "(x³ - 3x + 2) ÷ (x - 1)"
+                ]
+              }
+            ],
+            "exercises": [
+              "Find zeroes of x²−7x+10",
+              "Verify α + β and αβ for x²−4x+3",
+              "Divide x³−2x²−x+2 by x−2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state10-science",
+      "name": "Science",
+      "icon": "⚗️",
+      "chapters": [
+        {
+          "id": "state10-sci-ch1",
+          "title": "Chemical Reactions and Equations",
+          "content": {
+            "introduction": "Types of chemical reactions, balancing equations, and effects of oxidation and reduction.",
+            "topics": [
+              {
+                "title": "What is Chemical Reaction?",
+                "description": "A process where substances change into new substances.",
+                "examples": [
+                  "Mg + O₂ → MgO",
+                  "Rusting of iron"
+                ]
+              },
+              {
+                "title": "Types of Reactions",
+                "description": "Combination, decomposition, displacement, double displacement, redox.",
+                "examples": [
+                  "Combination: 2H₂ + O₂ → 2H₂O",
+                  "Decomposition: 2KClO₃ → 2KCl + 3O₂",
+                  "Displacement: Zn + CuSO₄ → ZnSO₄ + Cu"
+                ]
+              },
+              {
+                "title": "Oxidation & Reduction",
+                "description": "Gain and loss of oxygen or electrons.",
+                "examples": [
+                  "Oxidation: Mg → Mg²⁺ + 2e⁻",
+                  "Reduction: Cu²⁺ + 2e⁻ → Cu"
+                ]
+              }
+            ],
+            "exercises": [
+              "Write 5 balanced chemical equations.",
+              "Define oxidation and reduction with examples.",
+              "What is displacement reaction?",
+              "Why does iron rust?"
+            ]
+          }
+        },
+        {
+          "id": "state10-sci-ch2",
+          "title": "Life Processes",
+          "content": {
+            "introduction": "Basic functions of living organisms like nutrition, respiration, transportation, and excretion.",
+            "topics": [
+              {
+                "title": "Nutrition",
+                "description": "Autotrophic and heterotrophic nutrition.",
+                "examples": [
+                  "Photosynthesis in plants",
+                  "Human digestive system"
+                ]
+              },
+              {
+                "title": "Respiration",
+                "description": "Aerobic and anaerobic respiration.",
+                "examples": [
+                  "Glucose + O₂ → CO₂ + H₂O + Energy",
+                  "Yeast – alcohol fermentation"
+                ]
+              },
+              {
+                "title": "Transportation",
+                "description": "Transport of water, food, oxygen and wastes.",
+                "examples": [
+                  "Xylem and phloem in plants",
+                  "Human circulatory system"
+                ]
+              }
+            ],
+            "exercises": [
+              "What is photosynthesis? Write equation.",
+              "Difference between aerobic and anaerobic respiration.",
+              "Explain structure and function of heart.",
+              "What is excretion?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state10-english",
+      "name": "English",
+      "icon": "✍️",
+      "chapters": [
+        {
+          "id": "state10-eng-ch1",
+          "title": "A Letter to God",
+          "content": {
+            "introduction": "Story of Lencho who writes a letter to God for help after his crops are destroyed.",
+            "topics": [
+              {
+                "title": "Story Summary",
+                "description": "Farmer loses crops in hailstorm and asks God for money.",
+                "examples": [
+                  "Lencho writes letter",
+                  "Postmaster collects money",
+                  "Lencho thinks post office employees are thieves"
+                ]
+              },
+              {
+                "title": "Theme & Message",
+                "description": "Faith, trust, and irony.",
+                "examples": [
+                  "Blind faith in God",
+                  "Human kindness"
+                ]
+              }
+            ],
+            "exercises": [
+              "Who was Lencho?",
+              "Why did he write a letter?",
+              "How did postmaster help?",
+              "Explain theme of story."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state10-social",
+      "name": "Social Science",
+      "icon": "🏛️",
+      "chapters": [
+        {
+          "id": "state10-soc-ch1",
+          "title": "Power Sharing",
+          "content": {
+            "introduction": "Democratic political system where power is shared to avoid conflict.",
+            "topics": [
+              {
+                "title": "Why Power Sharing?",
+                "description": "Prevents social conflict, ensures unity.",
+                "examples": [
+                  "Belgium – linguistic groups",
+                  "Sri Lanka – conflict due to majoritarianism"
+                ]
+              },
+              {
+                "title": "Forms of Power Sharing",
+                "description": "Horizontal, vertical, community government.",
+                "examples": [
+                  "Legislative, executive, judiciary",
+                  "Municipalities & panchayats"
+                ]
+              }
+            ],
+            "exercises": [
+              "What is power sharing?",
+              "Explain case of Belgium.",
+              "Define horizontal power sharing.",
+              "Why is power sharing necessary?"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
