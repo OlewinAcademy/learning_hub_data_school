@@ -1,576 +1,206 @@
 {
   "class": "6",
   "board": "CBSE",
-  "subject": "Mathematics",
-  "chapters": [
+  "subjects": [
     {
-      "id": "ch1",
-      "title": "Knowing Our Numbers",
-      "content": {
-        "definitions": [
-          "Natural Numbers: Counting numbers 1,2,3,4...",
-          "Whole Numbers: All natural numbers + 0",
-          "Place Value: The value of a digit based on its position",
-          "Face Value: Actual value of a digit"
-        ],
-        "formulas": [
-          "Successor = Number + 1",
-          "Predecessor = Number - 1",
-          "Expanded form shows place value of digits"
-        ],
-        "topics": [
-          "Comparing numbers",
-          "Place value & Face value",
-          "Reading and writing large numbers",
-          "Indian vs International System",
-          "Estimation"
-        ],
-        "solved_examples": [
-          {
-            "question": "Write 4,82,376 in words (Indian System).",
-            "solution": "Four lakh eighty-two thousand three hundred seventy-six."
-          },
-          {
-            "question": "Find the successor of 9999.",
-            "solution": "9999 + 1 = 10000"
-          },
-          {
-            "question": "Write 4,52,197 in expanded form.",
-            "solution": "4,00,000 + 50,000 + 2,000 + 100 + 90 + 7"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Successor of 7000?",
-            "options": ["6999", "7001", "70000", "7999"],
-            "answer": "7001"
-          },
-          {
-            "question": "Smallest 5-digit number?",
-            "options": ["1000", "9999", "10000", "11111"],
-            "answer": "10000"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Write 95,07,326 in Indian and International systems and expanded form.",
-            "points": [
-              "Indian: Ninety-five lakh seven thousand three hundred twenty-six",
-              "International: 9,507,326 = Nine million five hundred seven thousand three hundred twenty-six",
-              "Expanded: 90,00,000 + 5,00,000 + 7,000 + 300 + 20 + 6"
+      "id": "cbse6-math",
+      "name": "Mathematics",
+      "icon": "➗",
+      "chapters": [
+        {
+          "id": "cbse6-math-ch1",
+          "title": "Knowing Our Numbers",
+          "content": {
+            "introduction": "Understanding large numbers, place value system, comparison and estimation of numbers.",
+            "topics": [
+              {
+                "title": "Place Value System",
+                "description": "Indian and International place value systems are used to read and write large numbers.",
+                "definitions": [
+                  "Place Value: The value of a digit based on its position.",
+                  "Face Value: The actual value of a digit."
+                ],
+                "examples": [
+                  "Indian System: 25,43,678 → 25 lakh 43 thousand 678",
+                  "International System: 2,543,678 → 2 million 543 thousand 678",
+                  "Face value of 7 in 7,864 is 7",
+                  "Place value of 7 in 7,864 is 7000"
+                ]
+              },
+              {
+                "title": "Comparing Numbers",
+                "description": "We compare by counting digits or checking place values.",
+                "examples": [
+                  "56789 > 34567 because 56 thousand is greater than 34 thousand",
+                  "60021 < 60210 because in the thousands place 0 < 2"
+                ]
+              },
+              {
+                "title": "Estimation and Rounding",
+                "description": "Numbers can be rounded to nearest tens, hundreds, thousands for quick calculations.",
+                "examples": [
+                  "Round 73 to nearest 10 → 70",
+                  "Round 348 to nearest 100 → 300",
+                  "Round 4521 to nearest 1000 → 5000"
+                ]
+              }
+            ],
+            "formulas": [
+              "Place value = face value × place",
+              "1 lakh = 100,000",
+              "1 million = 10 lakhs"
+            ],
+            "solved_examples": [
+              {
+                "question": "Write 3,50,67,281 in words (Indian System).",
+                "solution": "Three crore fifty lakh sixty-seven thousand two hundred eighty-one"
+              },
+              {
+                "question": "Round 8,943 to nearest 100.",
+                "solution": "Since tens digit is 4 (<5), answer = 8,900"
+              }
+            ],
+            "mcqs": [
+              {
+                "q": "Which is greater: 56,789 or 65,789?",
+                "options": ["56,789", "65,789", "Both equal", "Cannot compare"],
+                "answer": "65,789"
+              },
+              {
+                "q": "Face value of 9 in 29,456?",
+                "options": ["9", "90", "900", "9000"],
+                "answer": "9"
+              }
+            ],
+            "long_questions": [
+              "Explain the Indian and International place value systems with examples.",
+              "Round these numbers to nearest thousand: 5432, 8132, 1999."
+            ],
+            "real_life_applications": [
+              "Used in reading population numbers, bank balance, electricity bills.",
+              "Rounding helps in estimating shopping bills or distances."
             ]
           }
-        ],
-        "real_life_applications": [
-          "Reading population & bank amounts",
-          "Reading electricity/water bills",
-          "Understanding price comparisons"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch2",
-      "title": "Whole Numbers",
-      "content": {
-        "definitions": [
-          "Whole Numbers: 0,1,2,3,...",
-          "Number Line: Representation of numbers on a line",
-          "Identity Elements: a+0=a and a×1=a"
-        ],
-        "formulas": [
-          "Commutative: a+b=b+a, a×b=b×a",
-          "Associative: (a+b)+c=a+(b+c)",
-          "Distributive: a(b+c)=ab+ac"
-        ],
-        "solved_examples": [
-          {
-            "question": "Find 45 + 0.",
-            "solution": "45"
-          },
-          {
-            "question": "Find 13 × (10 + 2).",
-            "solution": "13×12 = 156 (Using distributive law: 13×10 + 13×2)"
+        },
+        {
+          "id": "cbse6-math-ch2",
+          "title": "Whole Numbers",
+          "content": {
+            "introduction": "Study of natural numbers, whole numbers, their properties and number line.",
+            "topics": [
+              {
+                "title": "Natural and Whole Numbers",
+                "description": "Natural numbers start from 1, whole numbers start from 0.",
+                "examples": [
+                  "Natural numbers: 1,2,3,4,...",
+                  "Whole numbers: 0,1,2,3,4,..."
+                ]
+              },
+              {
+                "title": "Number Line",
+                "description": "Numbers arranged on a line from smallest to largest.",
+                "examples": [
+                  "0 → 1 → 2 → 3 → 4 ... equally spaced"
+                ]
+              },
+              {
+                "title": "Properties of Whole Numbers",
+                "description": "Closure, Commutative, Associative, Identity, Distributive.",
+                "examples": [
+                  "Closure: 5 + 7 = 12 (whole number)",
+                  "Commutative: 5 + 2 = 2 + 5",
+                  "Identity: 7 + 0 = 7"
+                ]
+              }
+            ],
+            "formulas": [
+              "Whole numbers = {0,1,2,3...}",
+              "Natural numbers = {1,2,3...}"
+            ],
+            "solved_examples": [
+              {
+                "question": "Is 0 a natural number?",
+                "solution": "No, 0 is not a natural number but it is a whole number."
+              }
+            ],
+            "mcqs": [
+              {
+                "q": "Smallest whole number?",
+                "options": ["1","0","-1","2"],
+                "answer": "0"
+              },
+              {
+                "q": "Natural numbers start from?",
+                "options": ["0","1","2","10"],
+                "answer": "1"
+              }
+            ],
+            "long_questions": [
+              "Write and explain the properties of whole numbers with examples.",
+              "Draw a number line from 0 to 20."
+            ],
+            "real_life_applications": [
+              "Used to count objects and represent money, distance, population."
+            ]
           }
-        ],
-        "mcqs": [
-          {
-            "question": "Which is a whole number?",
-            "options": ["-3", "5", "1/2", "-1"],
-            "answer": "5"
+        },
+        {
+          "id": "cbse6-math-ch3",
+          "title": "Playing with Numbers",
+          "content": {
+            "introduction": "Understanding factors, multiples, prime and composite numbers, LCM and HCF.",
+            "topics": [
+              {
+                "title": "Factors and Multiples",
+                "description": "Factors divide a number exactly; multiples are products of the number.",
+                "examples": [
+                  "Factors of 12: 1,2,3,4,6,12",
+                  "Multiples of 4: 4,8,12,16..."
+                ]
+              },
+              {
+                "title": "Prime and Composite Numbers",
+                "description": "Prime numbers have 2 factors; composite have more than 2.",
+                "examples": [
+                  "Prime: 2,3,5,7,11",
+                  "Composite: 4,6,8,9,12"
+                ]
+              },
+              {
+                "title": "LCM and HCF",
+                "description": "LCM = smallest common multiple; HCF = greatest common factor",
+                "examples": [
+                  "LCM of 4 and 6 = 12",
+                  "HCF of 8 and 12 = 4"
+                ]
+              }
+            ],
+            "formulas": [
+              "LCM × HCF = Product of numbers (for two numbers)"
+            ],
+            "solved_examples": [
+              {
+                "question": "Find factors of 18.",
+                "solution": "1,2,3,6,9,18"
+              }
+            ],
+            "mcqs": [
+              {
+                "q": "Which is the smallest prime number?",
+                "options": ["1","2","3","5"],
+                "answer": "2"
+              }
+            ],
+            "long_questions": [
+              "Find LCM and HCF of 12 and 18.",
+              "Write first 10 multiples of 7."
+            ],
+            "real_life_applications": [
+              "Used in dividing items into equal groups, arranging teams etc."
+            ]
           }
-        ],
-        "long_questions": [
-          {
-            "question": "Explain properties of whole numbers with examples."
-          }
-        ],
-        "real_life_applications": [
-          "Counting objects",
-          "Billing and payment",
-          "Distance measurement"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch3",
-      "title": "Playing with Numbers",
-      "content": {
-        "definitions": [
-          "Factor: Divides a number exactly",
-          "Multiple: Comes in a table of number",
-          "Prime Number: Only 2 factors (1 & itself)",
-          "Composite Number: More than 2 factors",
-          "LCM: Least Common Multiple",
-          "HCF: Highest Common Factor"
-        ],
-        "formulas": [
-          "Divisibility rules 2,3,5,9,10",
-          "HCF by prime factorization",
-          "LCM by prime factorization",
-          "HCF × LCM = product of numbers"
-        ],
-        "solved_examples": [
-          {
-            "question": "Find LCM of 6 and 8.",
-            "solution": "6=2×3, 8=2×2×2 ⇒ LCM=2×2×2×3=24"
-          },
-          {
-            "question": "Check divisibility of 345 by 5.",
-            "solution": "Last digit 5 → divisible."
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Smallest prime number?",
-            "options": ["1","2","3","5"],
-            "answer": "2"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Find HCF and LCM of 12 and 18 using prime factorization."
-          }
-        ],
-        "real_life_applications": [
-          "Cycle patterns (traffic lights)",
-          "LCM in timing repeating events",
-          "HCF in splitting items equally"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch4",
-      "title": "Basic Geometrical Ideas",
-      "content": {
-        "definitions": [
-          "Point, Line, Line Segment, Ray",
-          "Parallel & Intersecting lines",
-          "Triangle, Quadrilateral, Circle",
-          "Radius, Diameter, Chord, Arc"
-        ],
-        "formulas": [
-          "Diameter = 2 × Radius"
-        ],
-        "solved_examples": [
-          {
-            "question": "Draw a circle and mark radius & diameter.",
-            "solution": "Diameter is twice radius."
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "How many endpoints does a ray have?",
-            "options": ["1","2","none","3"],
-            "answer": "1"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Explain parts of a circle with a labeled diagram."
-          }
-        ],
-        "real_life_applications": [
-          "Road intersections",
-          "Wheel radius-diameter",
-          "House architecture"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch5",
-      "title": "Understanding Elementary Shapes",
-      "content": {
-        "definitions": [
-          "Right angle = 90°",
-          "Acute angle < 90°",
-          "Obtuse angle > 90° <180°",
-          "Straight angle = 180°"
-        ],
-        "formulas": [
-          "Triangle: sum of angles =180°"
-        ],
-        "solved_examples": [
-          {
-            "question": "Identify angle of 120°.",
-            "solution": "Obtuse angle"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Angle in a straight line?",
-            "options": ["90°","180°","360°","45°"],
-            "answer": "180°"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Classify angles & give real-life examples."
-          }
-        ],
-        "real_life_applications": [
-          "Clock hands",
-          "Engineering & carpentry",
-          "Building design"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch6",
-      "title": "Integers",
-      "content": {
-        "definitions": [
-          "Integers: ..., -3, -2, -1, 0, 1, 2, 3...",
-          "Opposite numbers: equal distance from 0"
-        ],
-        "formulas": [
-          "Addition and subtraction rule",
-          "(-a) + a = 0"
-        ],
-        "solved_examples": [
-          {
-            "question": "(-7) + 5 = ?",
-            "solution": "-2"
-          },
-          {
-            "question": "6 - (-3) = ?",
-            "solution": "6+3 = 9"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Opposite of -8?",
-            "options": ["8","-8","-1","0"],
-            "answer": "8"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Explain integer addition on number line."
-          }
-        ],
-        "real_life_applications": [
-          "Temperatures",
-          "Bank credits/debits",
-          "Height above/below sea level"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch7",
-      "title": "Fractions",
-      "content": {
-        "definitions": [
-          "Proper, Improper, Mixed Fraction",
-          "Equivalent fractions",
-          "Like & Unlike fractions"
-        ],
-        "formulas": [
-          "a/b = (a×n)/(b×n)",
-          "LCM of denominators for addition"
-        ],
-        "solved_examples": [
-          {
-            "question": "Add 1/2 + 1/3",
-            "solution": "LCM 6 → 3/6 + 2/6 = 5/6"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "1/2 = ?/6",
-            "options": ["2","3","4","6"],
-            "answer": "3"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Convert 3 1/2 to improper fraction."
-          }
-        ],
-        "real_life_applications": [
-          "Cooking ingredients",
-          "Dividing money or objects",
-          "Measurements"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch8",
-      "title": "Decimals",
-      "content": {
-        "definitions": [
-          "Decimal: number with a fractional part",
-          "Tenths, Hundredths, Thousandths"
-        ],
-        "formulas": [
-          "Addition/subtraction like whole numbers by decimal alignment"
-        ],
-        "solved_examples": [
-          {
-            "question": "2.35 + 3.7 = ?",
-            "solution": "6.05"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "0.5 = ?/10",
-            "options": ["5","50","1","10"],
-            "answer": "5"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Convert 2.75 to fraction and simplest form."
-          }
-        ],
-        "real_life_applications": [
-          "Money & currency",
-          "Weighing fruits",
-          "Petrol measurement"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch9",
-      "title": "Data Handling",
-      "content": {
-        "definitions": [
-          "Data, Tally Marks, Pictograph, Bar Graph"
-        ],
-        "formulas": [
-          "Frequency count",
-          "Bar graph comparison"
-        ],
-        "solved_examples": [
-          {
-            "question": "Draw bar graph for given data: Apples=4, Mango=6.",
-            "solution": "Apples height 4, Mango 6"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Which graph uses pictures?",
-            "options": ["Bar","Pie","Pictograph","Line"],
-            "answer": "Pictograph"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Explain how to draw a bar graph with steps."
-          }
-        ],
-        "real_life_applications": [
-          "Weather charts",
-          "Election results",
-          "Sales comparison"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch10",
-      "title": "Mensuration",
-      "content": {
-        "definitions": [
-          "Perimeter: boundary length",
-          "Area: region inside a shape"
-        ],
-        "formulas": [
-          "Perimeter (rectangle) = 2(l + b)",
-          "Perimeter (square) = 4a",
-          "Area (rectangle) = l × b",
-          "Area (square) = a²"
-        ],
-        "solved_examples": [
-          {
-            "question": "Find area of square of side 5 cm",
-            "solution": "a² = 25 cm²"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Area of rectangle = ?",
-            "options": ["l+b", "2l+2b", "l×b", "4l"],
-            "answer": "l×b"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Find perimeter and area of rectangle 12cm × 8cm."
-          }
-        ],
-        "real_life_applications": [
-          "Plot boundary fencing",
-          "Floor tiling cost",
-          "Painting walls"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch11",
-      "title": "Algebra",
-      "content": {
-        "definitions": [
-          "Variable: letter representing value",
-          "Equation: equality of two expressions"
-        ],
-        "formulas": [
-          "x + a = b → x = b - a"
-        ],
-        "solved_examples": [
-          {
-            "question": "Solve x+5=12",
-            "solution": "x=7"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "In x+3=10, x=?",
-            "options": ["3","7","10","13"],
-            "answer": "7"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Explain variable, constant and algebraic expression with examples."
-          }
-        ],
-        "real_life_applications": [
-          "Finding unknown quantities",
-          "Speed-distance-time problems"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch12",
-      "title": "Ratio and Proportion",
-      "content": {
-        "definitions": [
-          "Ratio: Comparison of two quantities",
-          "Proportion: Equivalence of two ratios"
-        ],
-        "formulas": [
-          "a:b = c:d → ad = bc"
-        ],
-        "solved_examples": [
-          {
-            "question": "Find ratio of 2kg to 500g",
-            "solution": "2kg = 2000g → 2000:500 = 4:1"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Which is proportional? 2/4 and 3/6?",
-            "options": ["Yes","No"],
-            "answer": "Yes"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Explain proportion with real-life example."
-          }
-        ],
-        "real_life_applications": [
-          "Maps",
-          "Recipes",
-          "Scale models"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch13",
-      "title": "Symmetry",
-      "content": {
-        "definitions": [
-          "Line of symmetry: divides shape into two equal halves"
-        ],
-        "solved_examples": [
-          {
-            "question": "Lines of symmetry in square?",
-            "solution": "4"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Triangle with 3 lines of symmetry?",
-            "options": ["Equilateral","Isosceles","Scalene","Right"],
-            "answer": "Equilateral"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Explain symmetry in nature & objects."
-          }
-        ],
-        "real_life_applications": [
-          "Art and design",
-          "Logos",
-          "Architecture"
-        ]
-      }
-    },
-
-    {
-      "id": "cbse6-math-ch14",
-      "title": "Practical Geometry",
-      "content": {
-        "definitions": [
-          "Construction: drawing shapes with tools"
-        ],
-        "solved_examples": [
-          {
-            "question": "Construct angle 60°",
-            "solution": "Use compass and ruler"
-          }
-        ],
-        "mcqs": [
-          {
-            "question": "Tool to draw arcs?",
-            "options": ["Ruler","Compass","Divider","Protractor"],
-            "answer": "Compass"
-          }
-        ],
-        "long_questions": [
-          {
-            "question": "Steps to construct a triangle with given sides."
-          }
-        ],
-        "real_life_applications": [
-          "Engineering",
-          "Blueprints",
-          "Maps and models"
-        ]
-      }
+        }
+      ]
     }
   ]
 }
