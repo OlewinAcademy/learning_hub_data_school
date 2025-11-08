@@ -1,0 +1,37 @@
+{
+  "class": "8",
+  "board": "State Board",
+  "subjects": [
+    {
+      "id": "state8-math",
+      "name": "Mathematics",
+      "icon": "📊",
+      "chapters": [
+        {
+          "id": "state8-math-ch1",
+          "title": "Rational Numbers",
+          "content": {
+            "introduction": "Understanding numbers that can be expressed as p/q where p and q are integers and q ≠ 0.",
+            "topics": [
+              {
+                "title": "What are Rational Numbers?",
+                "description": "Any number that can be written as a fraction of two integers.",
+                "examples": [
+                  "3/4, -5/7, 2, 0 are rational numbers",
+                  "2 = 2/1 (can be written as fraction)",
+                  "0.5 = 1/2 (terminating decimal)",
+                  "Between any two rational numbers, infinite rational numbers exist"
+                ]
+              },
+              {
+                "title": "Properties of Rational Numbers",
+                "description": "Closure, commutativity, associativity, and distributivity.",
+                "examples": [
+                  "Closure: 1/2 + 1/3 = 5/6 (sum is rational)",
+                  "Commutative: a + b = b + a",
+                  "Associative: (a + b) + c = a + (b + c)",
+                  "Distributive: a × (b + c) = (a × b) + (a × c)"
+                ]
+              },
+              {
+                "title": "Operations on Rational Numbers",
