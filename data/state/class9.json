@@ -1,1 +1,228 @@
 
+{
+  "class": "9",
+  "board": "State Board",
+  "subjects": [
+    {
+      "id": "state9-math",
+      "name": "Mathematics",
+      "icon": "➗",
+      "chapters": [
+        {
+          "id": "state9-math-ch1",
+          "title": "Number Systems",
+          "content": {
+            "introduction": "Understanding real numbers, irrational numbers, terminating and non-terminating decimals.",
+            "topics": [
+              {
+                "title": "Real Numbers",
+                "description": "Include rational and irrational numbers.",
+                "examples": [
+                  "Rational: 1/2, 3/4, -7, 0.25",
+                  "Irrational: √2, √3, π"
+                ]
+              },
+              {
+                "title": "Decimal Representation",
+                "description": "Terminating and non-terminating recurring decimals.",
+                "examples": [
+                  "1/4 = 0.25 (terminating)",
+                  "1/3 = 0.333... (non-terminating recurring)"
+                ]
+              },
+              {
+                "title": "Irrational Numbers on Number Line",
+                "description": "Representing √2, √3 using Pythagoras’ method.",
+                "examples": [
+                  "Construct √2 using right-angled triangle of sides 1,1"
+                ]
+              }
+            ],
+            "exercises": [
+              "Classify 3.14, √5, 7/8, 0.121212...",
+              "Represent √3 on number line.",
+              "Convert 1/6 into decimal.",
+              "Is √2 rational? Explain."
+            ]
+          }
+        },
+        {
+          "id": "state9-math-ch2",
+          "title": "Polynomials",
+          "content": {
+            "introduction": "Definition of polynomials, types, degrees, zeroes, factorization.",
+            "topics": [
+              {
+                "title": "What is a Polynomial?",
+                "description": "An expression with variables and coefficients.",
+                "examples": [
+                  "2x + 3",
+                  "5x² − x + 9",
+                  "Not polynomials: 2/x, x⁻¹"
+                ]
+              },
+              {
+                "title": "Degree and Types",
+                "description": "Linear, quadratic, cubic polynomials.",
+                "examples": [
+                  "Degree 1: 3x−2",
+                  "Degree 2: x²+5x+6",
+                  "Degree 3: x³−1"
+                ]
+              },
+              {
+                "title": "Zeroes of Polynomial",
+                "description": "Value of x where p(x)=0.",
+                "examples": [
+                  "For p(x) = x−3, zero is 3",
+                  "For p(x) = x²−4, zeroes are 2 and −2"
+                ]
+              }
+            ],
+            "exercises": [
+              "Find degree: 5x⁴−2x²+7",
+              "Find zero of x+5",
+              "Classify: x³+1, 4x−3, 3x²−8x+1",
+              "Verify: 2 is a zero of x²−4"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state9-science",
+      "name": "Science",
+      "icon": "⚗️",
+      "chapters": [
+        {
+          "id": "state9-sci-ch1",
+          "title": "Matter in Our Surroundings",
+          "content": {
+            "introduction": "Matter exists in solid, liquid, and gaseous states. They have different properties based on particle arrangement.",
+            "topics": [
+              {
+                "title": "Characteristics of Particles",
+                "description": "Particles of matter have space, attraction, and motion.",
+                "examples": [
+                  "Diffusion of perfume in a room",
+                  "Sugar dissolving in water"
+                ]
+              },
+              {
+                "title": "States of Matter",
+                "description": "Solids (fixed shape), liquids (fixed volume), gases (no fixed shape).",
+                "examples": [
+                  "Ice → solid",
+                  "Water → liquid",
+                  "Steam → gas"
+                ]
+              },
+              {
+                "title": "Change of State",
+                "description": "Melting, boiling, condensation, sublimation.",
+                "examples": [
+                  "Ice melts at 0°C",
+                  "Water boils at 100°C",
+                  "Camphor sublimes"
+                ]
+              }
+            ],
+            "exercises": [
+              "Why do solids have fixed shape?",
+              "Define sublimation.",
+              "What is diffusion? Give example.",
+              "Why does ice float on water?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state9-english",
+      "name": "English",
+      "icon": "✍️",
+      "chapters": [
+        {
+          "id": "state9-eng-ch1",
+          "title": "The Fun They Had",
+          "content": {
+            "introduction": "Story by Isaac Asimov about future virtual schooling compared with traditional classrooms.",
+            "topics": [
+              {
+                "title": "Story Summary",
+                "description": "Two children discover an old book and learn how schools used to be.",
+                "examples": [
+                  "Tommy finds a printed book",
+                  "Teachers used to be humans",
+                  "Children studied together in schools"
+                ]
+              },
+              {
+                "title": "Theme and Message",
+                "description": "Importance of real classrooms, friends, and teachers.",
+                "examples": [
+                  "Learning is fun with people",
+                  "Machines can’t replace emotions"
+                ]
+              }
+            ],
+            "exercises": [
+              "Who were Margie and Tommy?",
+              "Why was Margie shocked to see a real book?",
+              "How were old schools different?",
+              "Write message of story in 5 lines."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "state9-social",
+      "name": "Social Science",
+      "icon": "🏛️",
+      "chapters": [
+        {
+          "id": "state9-soc-ch1",
+          "title": "The French Revolution",
+          "content": {
+            "introduction": "Study of French society, monarchy, taxes, and how revolution brought liberty, equality, fraternity.",
+            "topics": [
+              {
+                "title": "French Society",
+                "description": "Three estates: Clergy, Nobility, Common people.",
+                "examples": [
+                  "1st Estate - Clergy",
+                  "2nd Estate - Nobles",
+                  "3rd Estate - Peasants, workers"
+                ]
+              },
+              {
+                "title": "Causes of Revolution",
+                "description": "Social inequality, taxes, debt, American Revolution inspiration.",
+                "examples": [
+                  "Heavy taxes on 3rd estate",
+                  "Expensive wars",
+                  "Bad harvest & hunger"
+                ]
+              },
+              {
+                "title": "Results",
+                "description": "End of monarchy, rise of democracy & human rights.",
+                "examples": [
+                  "Declaration of Rights of Man",
+                  "National Assembly formed"
+                ]
+              }
+            ],
+            "exercises": [
+              "What were the three estates?",
+              "Why were people unhappy in France?",
+              "Write three causes of French Revolution.",
+              "What is the importance of Liberty, Equality, Fraternity?"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
